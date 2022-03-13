@@ -1,10 +1,15 @@
-import React from "react";
-import LogoLight from "../images/logo-light.png"
-import Logo from "../images/logo.png"
+import React, { useState } from "react";
+import LogoLight from "../images/logo-light.png";
+import Logo from "../images/logo.png";
 
 const Nav = () => {
+  const [fixedNav, setFixedNav] = useState("");
+  window.onscroll = () => {
+    window.scrollY > 1 ? setFixedNav("smaller") : setFixedNav("");
+  };
+
   return (
-    <header className="transparent header-light scroll-light">
+    <header className={`transparent header-light scroll-light smaller`}>
       <div className="container">
         <div className="row">
           <div className="col-md-12">
@@ -13,11 +18,7 @@ const Nav = () => {
                 <div className="de-flex-col">
                   <div id="logo">
                     <a href="index.html">
-                      <img
-                        alt=""
-                        className="logo"
-                        src={LogoLight}
-                      />
+                      <img alt="" className="logo" src={LogoLight} />
                       <img alt="" className="logo-2" src={Logo} />
                     </a>
                   </div>
@@ -34,7 +35,7 @@ const Nav = () => {
               </div>
               <div className="de-flex-col header-col-mid">
                 <ul id="mainmenu">
-                  <li>
+                  <li className="menu-item-has-children has-child">
                     <a href="index.html">
                       Home<span></span>
                     </a>
@@ -80,7 +81,7 @@ const Nav = () => {
                       </li>
                     </ul>
                   </li>
-                  <li>
+                  <li className="menu-item-has-children has-child">
                     <a href="explore.html">
                       Explore<span></span>
                     </a>
@@ -108,7 +109,7 @@ const Nav = () => {
                       </li>
                     </ul>
                   </li>
-                  <li>
+                  <li className="menu-item-has-children has-child">
                     <a href="#">
                       Pages<span></span>
                     </a>
@@ -145,7 +146,7 @@ const Nav = () => {
                       </li>
                     </ul>
                   </li>
-                  <li>
+                  <li className="menu-item-has-children has-child">
                     <a href="#">
                       Stats<span></span>
                     </a>
@@ -158,7 +159,7 @@ const Nav = () => {
                       </li>
                     </ul>
                   </li>
-                  <li>
+                  <li className="menu-item-has-children has-child">
                     <a href="#">
                       Elements<span></span>
                     </a>

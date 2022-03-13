@@ -1,5 +1,6 @@
 import React from "react";
-import NFT from "../images/misc/nft.png"
+import NFT from "../images/misc/nft.png";
+import backgroundImage from "../images/background/bg-shape-1.jpg";
 
 const Landing = () => {
   return (
@@ -8,6 +9,7 @@ const Landing = () => {
       aria-label="section"
       className="no-top no-bottom vh-100"
       data-bgimage="url(images/background/bg-shape-1.jpg) bottom"
+      style={{ background: `url(${backgroundImage}) bottom / cover` }}
     >
       <div className="v-center">
         <div className="container">

@@ -1,4 +1,5 @@
 import React from "react";
+import { browseByCategoryData } from "../data/browseByCategoryData";
 
 const BrowseByCategory = () => {
   return (
@@ -11,60 +12,19 @@ const BrowseByCategory = () => {
               <div className="small-border bg-color-2"></div>
             </div>
           </div>
-          <div
-            className="col-md-2 col-sm-4 col-6 mb-sm-30 wow fadeInRight"
-            data-wow-delay=".1s"
-          >
-            <a href="explore.html" className="icon-box style-2 rounded">
-              <i className="fa fa-image"></i>
-              <span>Art</span>
-            </a>
-          </div>
-          <div
-            className="col-md-2 col-sm-4 col-6 mb-sm-30 wow fadeInRight"
-            data-wow-delay=".2s"
-          >
-            <a href="explore.html" className="icon-box style-2 rounded">
-              <i className="fa fa-music"></i>
-              <span>Music</span>
-            </a>
-          </div>
-          <div
-            className="col-md-2 col-sm-4 col-6 mb-sm-30 wow fadeInRight"
-            data-wow-delay=".3s"
-          >
-            <a href="explore.html" className="icon-box style-2 rounded">
-              <i className="fa fa-search"></i>
-              <span>Domain Names</span>
-            </a>
-          </div>
-          <div
-            className="col-md-2 col-sm-4 col-6 mb-sm-30 wow fadeInRight"
-            data-wow-delay=".4s"
-          >
-            <a href="explore.html" className="icon-box style-2 rounded">
-              <i className="fa fa-globe"></i>
-              <span>Virtual Worlds</span>
-            </a>
-          </div>
-          <div
-            className="col-md-2 col-sm-4 col-6 mb-sm-30 wow fadeInRight"
-            data-wow-delay=".5s"
-          >
-            <a href="explore.html" className="icon-box style-2 rounded">
-              <i className="fa fa-vcard"></i>
-              <span>Trading Cards</span>
-            </a>
-          </div>
-          <div
-            className="col-md-2 col-sm-4 col-6 mb-sm-30 wow fadeInRight"
-            data-wow-delay=".6s"
-          >
-            <a href="explore.html" className="icon-box style-2 rounded">
-              <i className="fa fa-th"></i>
-              <span>Collectibles</span>
-            </a>
-          </div>
+
+          {browseByCategoryData.map((item, index) => (
+            <div
+              className="col-md-2 col-sm-4 col-6 mb-sm-30 wow fadeInRight"
+              data-wow-delay={`.${index + 1}s`}
+              key={index}
+            >
+              <a href="explore.html" className="icon-box style-2 rounded">
+                <i className={`${item.icon}`}></i>
+                <span>{item.name}</span>
+              </a>
+            </div>
+          ))}
         </div>
       </div>
     </section>

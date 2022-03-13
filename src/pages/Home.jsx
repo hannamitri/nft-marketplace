@@ -11,7 +11,6 @@ import TopSellers from "../components/TopSellers";
 const Home = () => {
   return (
     <div id="wrapper">
-      
       <div className="no-bottom no-top" id="content">
         <div id="top"></div>
         <Landing />
@@ -22,7 +21,6 @@ const Home = () => {
         <BrowseByCategory />
       </div>
       <a href="#" id="back-to-top"></a>
-      
     </div>
   );
 };
