@@ -1,12 +1,10 @@
 import React from "react";
-import BrowseByCategory from "../components/BrowseByCategory";
-import Footer from "../components/Footer";
-import HotCollections from "../components/HotCollections";
-import Landing from "../components/Landing";
-import LandingIntro from "../components/LandingIntro";
-import Nav from "../components/Nav";
-import NewItems from "../components/NewItems";
-import TopSellers from "../components/TopSellers";
+import BrowseByCategory from "../components/home/BrowseByCategory";
+import HotCollections from "../components/home/HotCollections";
+import Landing from "../components/home/Landing";
+import LandingIntro from "../components/home/LandingIntro";
+import NewItems from "../components/home/NewItems";
+import TopSellers from "../components/home/TopSellers";
 
 const Home = () => {
   return (

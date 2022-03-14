@@ -1,8 +1,28 @@
 import React from "react";
 import OwlCarousel from "react-owl-carousel";
-import { hotCollectionData } from "../data/hotCollectionData";
+import { hotCollectionData } from "../../data/hotCollectionData";
 
 const HotCollections = () => {
+  const options = {
+    loop: true,
+    margin: 10,
+    nav: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+      900: {
+        items: 3,
+      },
+      1200: {
+        items: 4,
+      },
+    },
+  };
+
   return (
     <section id="section-collections" className="no-bottom">
       <div className="container">
@@ -13,7 +33,7 @@ const HotCollections = () => {
               <div className="small-border bg-color-2"></div>
             </div>
           </div>
-          <OwlCarousel className="owl-theme" items={4} margin={10} nav loop>
+          <OwlCarousel className="owl-theme" {...options}>
             {hotCollectionData.map((item, index) => (
               <div className="nft_coll" key={index}>
                 <div className="nft_wrap">

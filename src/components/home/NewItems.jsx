@@ -1,8 +1,28 @@
 import React from "react";
 import OwlCarousel from "react-owl-carousel";
-import { newItemsData } from "../data/newItemsData";
+import { newItemsData } from "../../data/newItemsData";
 
 const NewItems = () => {
+  const options = {
+    loop: true,
+    margin: 10,
+    nav: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+      900: {
+        items: 3,
+      },
+      1200: {
+        items: 4,
+      },
+    },
+  };
+
   return (
     <section id="section-items" className="no-bottom">
       <div className="container">
@@ -13,7 +33,7 @@ const NewItems = () => {
               <div className="small-border bg-color-2"></div>
             </div>
           </div>
-          <OwlCarousel className="owl-theme" items={4} margin={10} nav loop>
+          <OwlCarousel className="owl-theme" {...options}>
             {newItemsData.map((item, index) => (
               <div className="nft__item" key={index}>
                 <div
@@ -37,7 +57,7 @@ const NewItems = () => {
                 <div class="nft__item_wrap">
                   <div class="nft__item_extra">
                     <div class="nft__item_buttons">
-                      <button onclick="location.href='item-details.html'">
+                      <button>
                         Buy Now
                       </button>
                       <div class="nft__item_share">

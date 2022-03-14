@@ -1,10 +1,16 @@
 import React from "react";
 import ItemDetailsImage from "../images/items/big-4.jpg";
-import Author1 from "../images/author/author-1.jpg";
 import CollectionThumbnail1 from "../images/collections/coll-thumbnail-1.jpg";
 import Author10 from "../images/author/author-10.jpg";
 import EthImage from "../images/misc/ethereum.svg";
 import Logo from "../images/logo.png";
+import { detailsData } from "../data/detailsData";
+import Author1 from "../images/author/author-1.jpg";
+import { bidsData } from "../data/bidsData";
+import { historyData } from "../data/historyData";
+import Details from "../components/itemDetails/Details";
+import Bids from "../components/itemDetails/Bids";
+import History from "../components/itemDetails/History";
 
 const ItemDetails = () => {
   return (
@@ -99,254 +105,15 @@ const ItemDetails = () => {
                     </ul>
                     <div className="de_tab_content">
                       <div className="tab-1">
-                        <h6>Owner</h6>
-                        <div className="item_author">
-                          <div className="author_list_pp">
-                            <a href="author.html">
-                              <img className="lazy" src={Author10} alt="" />
-                              <i className="fa fa-check"></i>
-                            </a>
-                          </div>
-                          <div className="author_list_info">
-                            <a href="author.html">Stacy Long</a>
-                          </div>
-                        </div>
-
-                        <div className="spacer-40"></div>
-                        <h6>Properties</h6>
-                        <div className="row gx-2">
-                          <div className="col-lg-4 col-md-6 col-sm-6">
-                            <a href="#" className="nft_attr">
-                              <h5>Background</h5>
-                              <h4>Yellowish Sky</h4>
-                              <span>85% have this trait</span>
-                            </a>
-                          </div>
-                          <div className="col-lg-4 col-md-6 col-sm-6">
-                            <a href="#" className="nft_attr">
-                              <h5>Eyes</h5>
-                              <h4>Purple Eyes</h4>
-                              <span>14% have this trait</span>
-                            </a>
-                          </div>
-                          <div className="col-lg-4 col-md-6 col-sm-6">
-                            <a href="#" className="nft_attr">
-                              <h5>Nose</h5>
-                              <h4>Small Nose</h4>
-                              <span>45% have this trait</span>
-                            </a>
-                          </div>
-                          <div className="col-lg-4 col-md-6 col-sm-6">
-                            <a href="#" className="nft_attr">
-                              <h5>Mouth</h5>
-                              <h4>Smile Red Lip</h4>
-                              <span>61% have this trait</span>
-                            </a>
-                          </div>
-                          <div className="col-lg-4 col-md-6 col-sm-6">
-                            <a href="#" className="nft_attr">
-                              <h5>Neck</h5>
-                              <h4>Pink Ribbon</h4>
-                              <span>27% have this trait</span>
-                            </a>
-                          </div>
-                          <div className="col-lg-4 col-md-6 col-sm-6">
-                            <a href="#" className="nft_attr">
-                              <h5>Hair</h5>
-                              <h4>Pink Short</h4>
-                              <span>35% have this trait</span>
-                            </a>
-                          </div>
-                          <div className="col-lg-4 col-md-6 col-sm-6">
-                            <a href="#" className="nft_attr">
-                              <h5>Accessories</h5>
-                              <h4>Heart Necklace</h4>
-                              <span>33% have this trait</span>
-                            </a>
-                          </div>
-                          <div className="col-lg-4 col-md-6 col-sm-6">
-                            <a href="#" className="nft_attr">
-                              <h5>Hat</h5>
-                              <h4>Cute Panda</h4>
-                              <span>62% have this trait</span>
-                            </a>
-                          </div>
-                          <div className="col-lg-4 col-md-6 col-sm-6">
-                            <a href="#" className="nft_attr">
-                              <h5>Clothes</h5>
-                              <h4>Casual Purple</h4>
-                              <span>78% have this trait</span>
-                            </a>
-                          </div>
-                        </div>
-                        <div className="spacer-30"></div>
+                        <Details />
                       </div>
 
                       <div className="tab-2">
-                        <div className="p_list">
-                          <div className="p_list_pp">
-                            <a href="author.html">
-                              <img className="lazy" src={Author1} alt="" />
-                              <i className="fa fa-check"></i>
-                            </a>
-                          </div>
-                          <div className="p_list_info">
-                            Bid accepted <b>0.005 ETH</b>
-                            <span>
-                              by <b>Monica Lucas</b> at 6/15/2021, 3:20 AM
-                            </span>
-                          </div>
-                        </div>
-
-                        <div className="p_list">
-                          <div className="p_list_pp">
-                            <a href="author.html">
-                              <img
-                                className="lazy"
-                                src="images/author/author-2.jpg"
-                                alt=""
-                              />
-                              <i className="fa fa-check"></i>
-                            </a>
-                          </div>
-                          <div className="p_list_info">
-                            Bid <b>0.005 ETH</b>
-                            <span>
-                              by <b>Mamie Barnett</b> at 6/14/2021, 5:40 AM
-                            </span>
-                          </div>
-                        </div>
-
-                        <div className="p_list">
-                          <div className="p_list_pp">
-                            <a href="author.html">
-                              <img
-                                className="lazy"
-                                src="images/author/author-3.jpg"
-                                alt=""
-                              />
-                              <i className="fa fa-check"></i>
-                            </a>
-                          </div>
-                          <div className="p_list_info">
-                            Bid <b>0.004 ETH</b>
-                            <span>
-                              by <b>Nicholas Daniels</b> at 6/13/2021, 5:03 AM
-                            </span>
-                          </div>
-                        </div>
-
-                        <div className="p_list">
-                          <div className="p_list_pp">
-                            <a href="author.html">
-                              <img
-                                className="lazy"
-                                src="images/author/author-4.jpg"
-                                alt=""
-                              />
-                              <i className="fa fa-check"></i>
-                            </a>
-                          </div>
-                          <div className="p_list_info">
-                            Bid <b>0.003 ETH</b>
-                            <span>
-                              by <b>Lori Hart</b> at 6/12/2021, 12:57 AM
-                            </span>
-                          </div>
-                        </div>
+                        <Bids />
                       </div>
 
                       <div className="tab-3">
-                        <div className="p_list">
-                          <div className="p_list_pp">
-                            <a href="author.html">
-                              <img
-                                className="lazy"
-                                src="images/author/author-5.jpg"
-                                alt=""
-                              />
-                              <i className="fa fa-check"></i>
-                            </a>
-                          </div>
-                          <div className="p_list_info">
-                            Bid <b>0.005 ETH</b>
-                            <span>
-                              by <b>Jimmy Wright</b> at 6/14/2021, 6:40 AM
-                            </span>
-                          </div>
-                        </div>
-
-                        <div className="p_list">
-                          <div className="p_list_pp">
-                            <a href="author.html">
-                              <img className="lazy" src={Author1} alt="" />
-                              <i className="fa fa-check"></i>
-                            </a>
-                          </div>
-                          <div className="p_list_info">
-                            Bid accepted <b>0.005 ETH</b>
-                            <span>
-                              by <b>Monica Lucas</b> at 6/15/2021, 3:20 AM
-                            </span>
-                          </div>
-                        </div>
-
-                        <div className="p_list">
-                          <div className="p_list_pp">
-                            <a href="author.html">
-                              <img
-                                className="lazy"
-                                src="images/author/author-2.jpg"
-                                alt=""
-                              />
-                              <i className="fa fa-check"></i>
-                            </a>
-                          </div>
-                          <div className="p_list_info">
-                            Bid <b>0.005 ETH</b>
-                            <span>
-                              by <b>Mamie Barnett</b> at 6/14/2021, 5:40 AM
-                            </span>
-                          </div>
-                        </div>
-
-                        <div className="p_list">
-                          <div className="p_list_pp">
-                            <a href="author.html">
-                              <img
-                                className="lazy"
-                                src="images/author/author-3.jpg"
-                                alt=""
-                              />
-                              <i className="fa fa-check"></i>
-                            </a>
-                          </div>
-                          <div className="p_list_info">
-                            Bid <b>0.004 ETH</b>
-                            <span>
-                              by <b>Nicholas Daniels</b> at 6/13/2021, 5:03 AM
-                            </span>
-                          </div>
-                        </div>
-
-                        <div className="p_list">
-                          <div className="p_list_pp">
-                            <a href="author.html">
-                              <img
-                                className="lazy"
-                                src="images/author/author-4.jpg"
-                                alt=""
-                              />
-                              <i className="fa fa-check"></i>
-                            </a>
-                          </div>
-                          <div className="p_list_info">
-                            Bid <b>0.003 ETH</b>
-                            <span>
-                              by <b>Lori Hart</b> at 6/12/2021, 12:57 AM
-                            </span>
-                          </div>
-                        </div>
+                        <History />
                       </div>
                     </div>
                     <div className="spacer-10"></div>
@@ -402,7 +169,8 @@ const ItemDetails = () => {
                 <b>Monica Lucas</b>
                 <div className="spacer-single"></div>
                 <h6>
-                  Enter quantity. <span className="id-color-2">10 available</span>
+                  Enter quantity.{" "}
+                  <span className="id-color-2">10 available</span>
                 </h6>
                 <input
                   type="text"
@@ -475,7 +243,8 @@ const ItemDetails = () => {
                 />
                 <div className="spacer-single"></div>
                 <h6>
-                  Enter quantity. <span className="id-color-2">10 available</span>
+                  Enter quantity.{" "}
+                  <span className="id-color-2">10 available</span>
                 </h6>
                 <input
                   type="text"

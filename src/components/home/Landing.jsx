@@ -1,6 +1,6 @@
 import React from "react";
-import NFT from "../images/misc/nft.png";
-import backgroundImage from "../images/background/bg-shape-1.jpg";
+import NFT from "../../images/misc/nft.png";
+import backgroundImage from "../../images/background/bg-shape-1.jpg";
 
 const Landing = () => {
   return (

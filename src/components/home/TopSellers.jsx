@@ -1,5 +1,5 @@
 import React from "react";
-import { topSellerData } from "../data/topSellerData";
+import { topSellerData } from "../../data/topSellerData";
 
 const TopSellers = () => {
   return (

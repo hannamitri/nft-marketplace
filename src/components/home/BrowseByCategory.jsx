@@ -1,5 +1,5 @@
 import React from "react";
-import { browseByCategoryData } from "../data/browseByCategoryData";
+import { browseByCategoryData } from "../../data/browseByCategoryData";
 
 const BrowseByCategory = () => {
   return (
