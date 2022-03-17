@@ -11,13 +11,13 @@ const AuthorItems = () => {
   return (
     <>
       <ul className="de_nav">
-        <li className={`${activeTab === 1 && "active"} `}>
+        <li className={`${activeTab === 1 ? "active" : ""}`}>
           <span onClick={() => setActiveTab(1)}>On Sale</span>
         </li>
-        <li className={`${activeTab === 2 && "active"} `}>
+        <li className={`${activeTab === 2 ? "active" : ""}`}>
           <span onClick={() => setActiveTab(2)}>Created</span>
         </li>
-        <li className={`${activeTab === 3 && "active"} `}>
+        <li className={`${activeTab === 3 ? "active" : ""}`}>
           <span onClick={() => setActiveTab(3)}>Liked</span>
         </li>
       </ul>
@@ -27,7 +27,10 @@ const AuthorItems = () => {
           <div className="tab-1">
             <div className="row">
               {authorDataTab1.map((item, index) => (
-                <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12" key={index}>
+                <div
+                  className="col-lg-3 col-md-6 col-sm-6 col-xs-12"
+                  key={index}
+                >
                   <div className="nft__item">
                     <div className="author_list_pp">
                       <Link to="/author">
@@ -96,7 +99,10 @@ const AuthorItems = () => {
           <div className="tab-2">
             <div className="row">
               {authorDataTab2.map((item, index) => (
-                <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12" key={index}>
+                <div
+                  className="col-lg-3 col-md-6 col-sm-6 col-xs-12"
+                  key={index}
+                >
                   <div className="nft__item">
                     <div className="author_list_pp">
                       <Link to="author">

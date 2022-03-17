@@ -92,13 +92,13 @@ const ItemDetails = () => {
                   <div className="spacer-40"></div>
                   <div className="de_tab tab_simple">
                     <ul className="de_nav">
-                      <li className={`${activeTab === 1 && "active"} `}>
+                      <li className={`${activeTab === 1 ? "active" : ""}`}>
                         <span onClick={() => setActiveTab(1)}>Details</span>
                       </li>
-                      <li className={`${activeTab === 2 && "active"} `}>
+                      <li className={`${activeTab === 2 ? "active" : ""}`}>
                         <span onClick={() => setActiveTab(2)}>Bids</span>
                       </li>
-                      <li className={`${activeTab === 3 && "active"} `}>
+                      <li className={`${activeTab === 3 ? "active" : ""}`}>
                         <span onClick={() => setActiveTab(3)}>History</span>
                       </li>
                     </ul>
