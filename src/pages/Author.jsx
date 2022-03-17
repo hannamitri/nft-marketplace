@@ -1,14 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AuthorBanner from "../images/author_single/author_banner.jpg";
 import AuthorThumbnail from "../images/author_single/author_thumbnail.jpg";
-import {
-  authorDataTab1,
-  authorDataTab2,
-  authorDataTab3,
-} from "../data/authorData";
 import AuthorItems from "../components/author/AuthorItems";
+import WOW from "wowjs";
 
 const Author = () => {
+  useEffect(() => {
+    new WOW.WOW({
+      live: false,
+    }).init();
+
+    window.scrollTo(0, 0)
+  });
   return (
     <div id="wrapper">
       <div className="no-bottom no-top" id="content">
@@ -60,18 +63,6 @@ const Author = () => {
 
               <div className="col-md-12">
                 <div className="de_tab tab_simple">
-                  <ul className="de_nav">
-                    <li className="active">
-                      <span>On Sale</span>
-                    </li>
-                    <li>
-                      <span>Created</span>
-                    </li>
-                    <li>
-                      <span>Liked</span>
-                    </li>
-                  </ul>
-
                   <AuthorItems />
                 </div>
               </div>

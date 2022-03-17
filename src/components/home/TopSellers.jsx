@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { topSellerData } from "../../data/topSellerData";
 
 const TopSellers = () => {
@@ -17,13 +18,13 @@ const TopSellers = () => {
               {topSellerData.map((item, index) => (
                 <li key={index}>
                   <div className="author_list_pp">
-                    <a href="author.html">
+                    <Link to="/author">
                       <img className="lazy pp-author" src={item.image} alt="" />
                       <i className="fa fa-check"></i>
-                    </a>
+                    </Link>
                   </div>
                   <div className="author_list_info">
-                    <a href="author.html">{item.name}</a>
+                    <Link to="/author">{item.name}</Link>
                     <span>{item.eth} ETH</span>
                   </div>
                 </li>

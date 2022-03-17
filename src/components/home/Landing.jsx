@@ -1,6 +1,7 @@
 import React from "react";
 import NFT from "../../images/misc/nft.png";
 import backgroundImage from "../../images/background/bg-shape-1.jpg";
+import { Link } from "react-router-dom";
 
 const Landing = () => {
   return (
@@ -31,13 +32,13 @@ const Landing = () => {
                 interchangeable
               </p>
               <div className="spacer-10"></div>
-              <a
-                href="explore.html"
+              <Link
                 className="btn-main wow fadeInUp lead"
                 data-wow-delay="1.25s"
+                to="/explore"
               >
                 Explore
-              </a>
+              </Link>
               <div className="mb-sm-30"></div>
             </div>
             <div className="col-md-6 xs-hide">

@@ -1,33 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { exploreData } from "../../data/exploreData";
 
 const ExploreItems = () => {
+  const [itemCount, setItemCount] = useState(8);
+
   return (
     <>
-      {exploreData.map((item, index) => (
+      {exploreData.slice(0, itemCount).map((item, index) => (
         <div
           key={index}
           className="d-item col-lg-3 col-md-6 col-sm-6 col-xs-12"
           style={{ display: "block", backgroundSize: "cover" }}
         >
           <div className="nft__item">
-            <div
-              className="de_countdown"
-              data-year="2022"
-              data-month="3"
-              data-day="16"
-              data-hour="8"
-            ></div>
             <div className="author_list_pp">
-              <a
-                href="author.html"
+              <Link
+                to="/author"
                 data-bs-toggle="tooltip"
                 data-bs-placement="top"
                 title="Creator: Monica Lucas"
               >
                 <img className="lazy" src={item.author} alt="" />
                 <i className="fa fa-check"></i>
-              </a>
+              </Link>
             </div>
             <div className="nft__item_wrap">
               <div className="nft__item_extra">
@@ -53,18 +49,19 @@ const ExploreItems = () => {
                   </div>
                 </div>
               </div>
-              <a href="item-details.html">
+
+              <Link to="/item-details">
                 <img
                   src={item.backgroundImage}
                   className="lazy nft__item_preview"
                   alt=""
                 />
-              </a>
+              </Link>
             </div>
             <div className="nft__item_info">
-              <a href="item-details.html">
+              <Link to="/item-details">
                 <h4>{item.title}</h4>
-              </a>
+              </Link>
               <div className="nft__item_click">
                 <span></span>
               </div>
@@ -82,6 +79,18 @@ const ExploreItems = () => {
           </div>
         </div>
       ))}
+      <div className="col-md-12 text-center">
+        {itemCount < exploreData.length && (
+          <Link
+            onClick={() => setItemCount(itemCount + 4)}
+            to=""
+            id="loadmore"
+            className="btn-main wow fadeInUp lead"
+          >
+            Load more
+          </Link>
+        )}
+      </div>
     </>
   );
 };

@@ -1,5 +1,6 @@
 import React from "react";
-import Logo from "../images/logo.png"
+import { Link } from "react-router-dom";
+import Logo from "../images/background/Ultraverse.png";
 
 const Footer = () => {
   return (
@@ -118,14 +119,12 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <div className="de-flex">
+              <div className="de-flex footer__wrapper">
                 <div className="de-flex-col">
-                  <a href="index.html">
+                  <Link to="/">
                     <img alt="" className="f-logo" src={Logo} />
-                    <span className="copy">
-                      &copy; Copyright 2022 - Gigaland by Designesia
-                    </span>
-                  </a>
+                    <span className="copy">&copy; Copyright 2022</span>
+                  </Link>
                 </div>
                 <div className="de-flex-col">
                   <div className="social-icons">

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { browseByCategoryData } from "../../data/browseByCategoryData";
 
 const BrowseByCategory = () => {
@@ -19,10 +20,10 @@ const BrowseByCategory = () => {
               data-wow-delay={`.${index + 1}s`}
               key={index}
             >
-              <a href="explore.html" className="icon-box style-2 rounded">
+              <Link to="/explore" className="icon-box style-2 rounded">
                 <i className={`${item.icon}`}></i>
                 <span>{item.name}</span>
-              </a>
+              </Link>
             </div>
           ))}
         </div>

@@ -1,18 +1,24 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ItemDetailsImage from "../images/items/big-4.jpg";
 import CollectionThumbnail1 from "../images/collections/coll-thumbnail-1.jpg";
-import Author10 from "../images/author/author-10.jpg";
 import EthImage from "../images/misc/ethereum.svg";
-import Logo from "../images/logo.png";
-import { detailsData } from "../data/detailsData";
 import Author1 from "../images/author/author-1.jpg";
-import { bidsData } from "../data/bidsData";
-import { historyData } from "../data/historyData";
 import Details from "../components/itemDetails/Details";
 import Bids from "../components/itemDetails/Bids";
 import History from "../components/itemDetails/History";
+import WOW from "wowjs";
+import { Link } from "react-router-dom";
 
 const ItemDetails = () => {
+  useEffect(() => {
+    new WOW.WOW({
+      live: false,
+    }).init();
+
+    window.scrollTo(0, 0);
+  });
+  const [activeTab, setActiveTab] = useState(1);
+
   return (
     <div id="wrapper">
       <div className="no-bottom no-top" id="content">
@@ -31,13 +37,6 @@ const ItemDetails = () => {
               <div className="col-md-6">
                 <div className="item_info">
                   Auctions ends in
-                  <div
-                    className="de_countdown"
-                    data-year="2022"
-                    data-month="3"
-                    data-day="16"
-                    data-hour="8"
-                  ></div>
                   <h2>AnimeSailorClub #304</h2>
                   <div className="item_info_counts">
                     <div className="item_info_type">
@@ -61,13 +60,13 @@ const ItemDetails = () => {
                       <h6>Creator</h6>
                       <div className="item_author">
                         <div className="author_list_pp">
-                          <a href="author.html">
+                          <Link to="/author">
                             <img className="lazy" src={Author1} alt="" />
                             <i className="fa fa-check"></i>
-                          </a>
+                          </Link>
                         </div>
                         <div className="author_list_info">
-                          <a href="author.html">Monica Lucas</a>
+                          <Link to="/author">Monica Lucas</Link>
                         </div>
                       </div>
                     </div>
@@ -93,28 +92,34 @@ const ItemDetails = () => {
                   <div className="spacer-40"></div>
                   <div className="de_tab tab_simple">
                     <ul className="de_nav">
-                      <li className="active">
-                        <span>Details</span>
+                      <li className={`${activeTab === 1 && "active"} `}>
+                        <span onClick={() => setActiveTab(1)}>Details</span>
                       </li>
-                      <li>
-                        <span>Bids</span>
+                      <li className={`${activeTab === 2 && "active"} `}>
+                        <span onClick={() => setActiveTab(2)}>Bids</span>
                       </li>
-                      <li>
-                        <span>History</span>
+                      <li className={`${activeTab === 3 && "active"} `}>
+                        <span onClick={() => setActiveTab(3)}>History</span>
                       </li>
                     </ul>
                     <div className="de_tab_content">
-                      <div className="tab-1">
-                        <Details />
-                      </div>
+                      {activeTab === 1 && (
+                        <div className="tab-1">
+                          <Details />
+                        </div>
+                      )}
 
-                      <div className="tab-2">
-                        <Bids />
-                      </div>
+                      {activeTab === 2 && (
+                        <div className="tab-2">
+                          <Bids />
+                        </div>
+                      )}
 
-                      <div className="tab-3">
-                        <History />
-                      </div>
+                      {activeTab === 3 && (
+                        <div className="tab-3">
+                          <History />
+                        </div>
+                      )}
                     </div>
                     <div className="spacer-10"></div>
                     <h6>Price</h6>
@@ -177,7 +182,7 @@ const ItemDetails = () => {
                   name="buy_now_qty"
                   id="buy_now_qty"
                   className="form-control"
-                  value="1"
+                  defaultValue="1"
                 />
                 <div className="spacer-single"></div>
                 <div className="de-flex">
@@ -251,7 +256,7 @@ const ItemDetails = () => {
                   name="bid_qty"
                   id="bid_qty"
                   className="form-control"
-                  value="1"
+                  defaultValue="1"
                 />
                 <div className="spacer-single"></div>
                 <div className="de-flex">
