@@ -827,6 +827,11 @@ header:not(.header-mobile) #mainmenu > li:hover ul.mega {
   height: auto;
 }
 
+.menu__open {
+  overflow-y: hidden;
+  height: 100vh;
+}
+
 .menu__open #dropdown__wrapper li {
   display: block;
 }

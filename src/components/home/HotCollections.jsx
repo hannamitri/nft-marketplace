@@ -40,6 +40,8 @@ const HotCollections = () => {
               <div className="small-border bg-color-2"></div>
             </div>
           </div>
+
+
           {hotCollection.length && (
             <OwlCarousel className="owl-theme" {...options}>
               {hotCollection.map((item, index) => (
