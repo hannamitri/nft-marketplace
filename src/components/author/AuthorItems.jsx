@@ -105,7 +105,7 @@ const AuthorItems = () => {
                 >
                   <div className="nft__item">
                     <div className="author_list_pp">
-                      <Link to="author">
+                      <Link to="/author">
                         <img className="lazy" src={item.author} alt="" />
                         <i className="fa fa-check"></i>
                       </Link>
@@ -174,7 +174,7 @@ const AuthorItems = () => {
                 <div className="col-lg-3 col-md-6" key={index}>
                   <div className="nft__item">
                     <div className="author_list_pp">
-                      <Link to="author">
+                      <Link to="/author">
                         <img className="lazy" src={item.author} alt="" />
                         <i className="fa fa-check"></i>
                       </Link>

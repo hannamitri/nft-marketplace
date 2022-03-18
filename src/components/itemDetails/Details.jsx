@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { detailsData } from "../../data/detailsData";
 import Author10 from "../../images/author/author-10.jpg";
 
@@ -8,13 +9,13 @@ const Details = () => {
       <h6>Owner</h6>
       <div className="item_author">
         <div className="author_list_pp">
-          <a href="author.html">
+          <Link to="/author">
             <img className="lazy" src={Author10} alt="" />
             <i className="fa fa-check"></i>
-          </a>
+          </Link>
         </div>
         <div className="author_list_info">
-          <a href="author.html">Stacy Long</a>
+          <Link to="/author">Stacy Long</Link>
         </div>
       </div>
 

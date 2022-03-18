@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import LogoLight from "../images/logo-light.png";
+import React from "react";
 // import Logo from "../images/logo.png";
 import Logo from "../images/background/Ultraverse.png";
 import { Link } from "react-router-dom";
@@ -24,7 +23,6 @@ const Nav = () => {
                 <div className="de-flex-col">
                   <div id="logo">
                     <Link to="/">
-                      <img alt="" className="logo" src={LogoLight} />
                       <img alt="" className="logo-2" src={Logo} />
                     </Link>
                   </div>

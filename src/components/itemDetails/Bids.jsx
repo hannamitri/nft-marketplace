@@ -1,16 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { bidsData } from "../../data/bidsData";
 
 const Bids = () => {
   return (
     <>
       {bidsData.map((item, index) => (
-        <div className="p_list">
+        <div className="p_list" key={index}>
           <div className="p_list_pp">
-            <a href="author.html">
+            <Link to="/author">
               <img className="lazy" src={item.author} alt="" />
               <i className="fa fa-check"></i>
-            </a>
+            </Link>
           </div>
           <div className="p_list_info">
             Bid {!index && "accepted"} <b>{item.eth} ETH</b>

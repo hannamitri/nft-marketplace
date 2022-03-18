@@ -74,17 +74,17 @@ const ItemDetails = () => {
                       <h6>Collection</h6>
                       <div className="item_author">
                         <div className="author_list_pp">
-                          <a href="collection.html">
+                          <Link to="/author">
                             <img
                               className="lazy"
                               src={CollectionThumbnail1}
                               alt=""
                             />
                             <i className="fa fa-check"></i>
-                          </a>
+                          </Link>
                         </div>
                         <div className="author_list_info">
-                          <a href="collection.html">AnimeSailorClub</a>
+                          <Link to="/author">AnimeSailorClub</Link>
                         </div>
                       </div>
                     </div>
@@ -204,13 +204,9 @@ const ItemDetails = () => {
                   </div>
                 </div>
                 <div className="spacer-single"></div>
-                <a
-                  href="wallet.html"
-                  target="_blank"
-                  className="btn-main btn-fullwidth"
-                >
+                <Link to="" className="btn-main btn-fullwidth">
                   Add funds
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -284,13 +280,9 @@ const ItemDetails = () => {
                   </div>
                 </div>
                 <div className="spacer-single"></div>
-                <a
-                  href="wallet.html"
-                  target="_blank"
-                  className="btn-main btn-fullwidth"
-                >
+                <Link to="" className="btn-main btn-fullwidth">
                   Place a bid
-                </a>
+                </Link>
               </div>
             </div>
           </div>
