@@ -1,17 +1,31 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import AuthorBanner from "../images/author_single/author_banner.jpg";
 import AuthorThumbnail from "../images/author_single/author_thumbnail.jpg";
 import AuthorItems from "../components/author/AuthorItems";
 import WOW from "wowjs";
+import axios from "axios";
+import { useParams } from "react-router-dom";
 
 const Author = () => {
+  const [authorData, setAuthorData] = useState([]);
+  const id = useParams().id;
+
+  const getAuthorData = async () => {
+    const response = await axios.get(
+      `https://us-central1-nft-cloud-functions.cloudfunctions.net/authors?author=${id}`
+    );
+
+    setAuthorData(response.data);
+  };
+
   useEffect(() => {
     new WOW.WOW({
       live: false,
     }).init();
 
-    window.scrollTo(0, 0)
-  });
+    window.scrollTo(0, 0);
+    getAuthorData();
+  }, []);
   return (
     <div id="wrapper">
       <div className="no-bottom no-top" id="content">
@@ -32,14 +46,16 @@ const Author = () => {
                 <div className="d_profile de-flex">
                   <div className="de-flex-col">
                     <div className="profile_avatar">
-                      <img src={AuthorThumbnail} alt="" />
+                      <img src={authorData.authorImage} alt="" />
                       <i className="fa fa-check"></i>
                       <div className="profile_name">
                         <h4>
-                          Monica Lucas
-                          <span className="profile_username">@monicaaa</span>
+                          {authorData.name}
+                          <span className="profile_username">
+                            @{authorData.tag}
+                          </span>
                           <span id="wallet" className="profile_wallet">
-                            DdzFFzCqrhshMSxb9oW3mRo4MJrQkusV3fGFSTwaiu4wPBqMryA9DYVJCkW9n7twCffG5f5wX2sSkoDXGiZB1HPa7K7f865Kk4LqnrME
+                            {authorData.address}
                           </span>
                           <button id="btn_copy" title="Copy Text">
                             Copy
@@ -50,7 +66,9 @@ const Author = () => {
                   </div>
                   <div className="profile_follow de-flex">
                     <div className="de-flex-col">
-                      <div className="profile_follower">500 followers</div>
+                      <div className="profile_follower">
+                        {authorData.followers} followers
+                      </div>
                     </div>
                     <div className="de-flex-col">
                       <a href="#" className="btn-main">
@@ -63,7 +81,7 @@ const Author = () => {
 
               <div className="col-md-12">
                 <div className="de_tab tab_simple">
-                  <AuthorItems />
+                  <AuthorItems authorData={authorData} />
                 </div>
               </div>
             </div>

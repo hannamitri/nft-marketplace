@@ -2,9 +2,19 @@ import React, { useEffect, useState } from "react";
 import OwlCarousel from "react-owl-carousel";
 import { Link } from "react-router-dom";
 import { newItemsData } from "../../data/newItemsData";
+import axios from "axios";
 
 const NewItems = () => {
   const [newItems, setNewItems] = useState([]);
+
+  const [newTestItems, setNewTestItems] = useState([]);
+  const getNewItems = async () => {
+    const response = await axios.get(
+      "https://us-central1-nft-cloud-functions.cloudfunctions.net/newItems"
+    );
+
+    setNewTestItems(response.data);
+  };
 
   const options = {
     loop: true,
@@ -28,6 +38,9 @@ const NewItems = () => {
 
   useEffect(() => {
     setNewItems(newItemsData);
+    getNewItems();
+
+    console.log(newTestItems);
   }, []);
 
   return (
@@ -41,18 +54,18 @@ const NewItems = () => {
             </div>
           </div>
 
-          {newItems.length && (
+          {newTestItems.length && (
             <OwlCarousel className="owl-theme" {...options}>
-              {newItems.map((item, index) => (
+              {newTestItems.map((item, index) => (
                 <div className="nft__item" key={index}>
                   <div className="author_list_pp">
                     <Link
-                      to="/author"
+                      to={`/author/${item.authorId}`}
                       data-bs-toggle="tooltip"
                       data-bs-placement="top"
                       title="Creator: Monica Lucas"
                     >
-                      <img className="lazy" src={item.author} alt="" />
+                      <img className="lazy" src={item.authorImage} alt="" />
                       <i className="fa fa-check"></i>
                     </Link>
                   </div>
@@ -83,7 +96,7 @@ const NewItems = () => {
 
                     <Link to="/item-details">
                       <img
-                        src={item.backgroundImage}
+                        src={item.itemImage}
                         className="lazy nft__item_preview"
                         alt=""
                       />
@@ -96,7 +109,7 @@ const NewItems = () => {
                     <div className="nft__item_click">
                       <span></span>
                     </div>
-                    <div className="nft__item_price">{item.eth} ETH</div>
+                    <div className="nft__item_price">{item.price} ETH</div>
                     <div className="nft__item_action">
                       <a href="#">Place a bid</a>
                     </div>

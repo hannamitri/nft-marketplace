@@ -3,9 +3,7 @@ import ItemDetailsImage from "../images/items/big-4.jpg";
 import CollectionThumbnail1 from "../images/collections/coll-thumbnail-1.jpg";
 import EthImage from "../images/misc/ethereum.svg";
 import Author1 from "../images/author/author-1.jpg";
-import Details from "../components/itemDetails/Details";
-import Bids from "../components/itemDetails/Bids";
-import History from "../components/itemDetails/History";
+import Author10 from "../images/author/author-10.jpg";
 import WOW from "wowjs";
 import { Link } from "react-router-dom";
 
@@ -103,23 +101,18 @@ const ItemDetails = () => {
                       </li>
                     </ul>
                     <div className="de_tab_content">
-                      {activeTab === 1 && (
-                        <div className="tab-1">
-                          <Details />
+                      <h6>Owner</h6>
+                      <div className="item_author">
+                        <div className="author_list_pp">
+                          <Link to="/author">
+                            <img className="lazy" src={Author10} alt="" />
+                            <i className="fa fa-check"></i>
+                          </Link>
                         </div>
-                      )}
-
-                      {activeTab === 2 && (
-                        <div className="tab-2">
-                          <Bids />
+                        <div className="author_list_info">
+                          <Link to="/author">Stacy Long</Link>
                         </div>
-                      )}
-
-                      {activeTab === 3 && (
-                        <div className="tab-3">
-                          <History />
-                        </div>
-                      )}
+                      </div>
                     </div>
                     <div className="spacer-10"></div>
                     <h6>Price</h6>
@@ -127,7 +120,7 @@ const ItemDetails = () => {
                       <img src={EthImage} alt="" />
                       <span>0.059</span>($253.67)
                     </div>
-                    <a
+                    {/* <a
                       href="#"
                       className="btn-main btn-lg"
                       data-bs-toggle="modal"
@@ -143,7 +136,7 @@ const ItemDetails = () => {
                       data-bs-target="#place_a_bid"
                     >
                       Place a Bid
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>

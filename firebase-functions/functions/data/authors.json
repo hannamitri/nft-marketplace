@@ -1,0 +1,1007 @@
+[
+  {
+    "id": 1,
+    "name": "Monica Lucas",
+    "tag": "monicaaa",
+    "address": "DdzFFzCqrhshMSxb9oW3mRo4MJrQkusV3fGFSTwaiu4wPBqMryA9DYVJCkW9n7twCffG5f5wX2sSkoDXGiZB1HPa7K7f865Kk4LqnrME",
+    "authorImage": "https://nft-marketplacee.web.app/static/media/author_thumbnail.04ee784f53cbe427d362.jpg",
+    "authorId": 232323422,
+    "followers": 506,
+    "nftCollection": [
+      {
+        "id": 1,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.08,
+        "rarity": "1/20",
+        "likes": "59"
+      },
+      {
+        "id": 2,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.38,
+        "rarity": "1/30",
+        "likes": "58"
+      },
+      {
+        "id": 3,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.28,
+        "rarity": "1/10",
+        "likes": "58"
+      },
+      {
+        "id": 4,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-4.36e71f072984d5852ce2.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.18,
+        "rarity": "1/23",
+        "likes": "55"
+      },
+      {
+        "id": 5,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.01,
+        "rarity": "1/20",
+        "likes": "53"
+      },
+      {
+        "id": 6,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.58,
+        "rarity": "1/20",
+        "likes": "30"
+      },
+      {
+        "id": 7,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.78,
+        "rarity": "1/25",
+        "likes": "50"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Hanna Mitri",
+    "tag": "mitriiii",
+    "address": "Dhdwhd7shMSxb9oW3mRo4MJrQkusV3fGFSTwaiu4wPBqMryA9DYVJCkW9n7twCffG5f5wX2sSkoDXGiZB1HPa7K7f865Kk4LqnrME",
+    "authorImage": "https://nft-marketplacee.web.app/author",
+    "authorId": 2,
+    "followers": 632,
+    "nftCollection": [
+      {
+        "id": 1,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.08,
+        "rarity": "1/20",
+        "likes": "59"
+      },
+      {
+        "id": 2,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.38,
+        "rarity": "1/30",
+        "likes": "58"
+      },
+      {
+        "id": 3,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.28,
+        "rarity": "1/10",
+        "likes": "58"
+      },
+      {
+        "id": 4,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.18,
+        "rarity": "1/23",
+        "likes": "55"
+      },
+      {
+        "id": 5,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.01,
+        "rarity": "1/20",
+        "likes": "53"
+      },
+      {
+        "id": 6,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.58,
+        "rarity": "1/20",
+        "likes": "30"
+      },
+      {
+        "id": 7,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.78,
+        "rarity": "1/25",
+        "likes": "50"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "David Bragg",
+    "tag": "braggdavid",
+    "address": "Asdfw72sshMSxb9oW3mRo4MJrQkusV3fGFSTwaiu4wPBqMryA9DYVJCkW9n7twCffG5f5wX2sSkoDXGiZB1HPa7K7f865Kk4LqnrME",
+    "authorImage": "data:image/jpeg;base64,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",
+    "authorId": 3,
+    "followers": 3232,
+    "nftCollection": [
+      {
+        "id": 1,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.08,
+        "rarity": "1/20",
+        "likes": "59"
+      },
+      {
+        "id": 2,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.38,
+        "rarity": "1/30",
+        "likes": "58"
+      },
+      {
+        "id": 3,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.28,
+        "rarity": "1/10",
+        "likes": "58"
+      },
+      {
+        "id": 4,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.18,
+        "rarity": "1/23",
+        "likes": "55"
+      },
+      {
+        "id": 5,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.01,
+        "rarity": "1/20",
+        "likes": "53"
+      },
+      {
+        "id": 6,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.58,
+        "rarity": "1/20",
+        "likes": "30"
+      },
+      {
+        "id": 7,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.78,
+        "rarity": "1/25",
+        "likes": "50"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Antonio",
+    "tag": "antoniooo",
+    "address": "Asdfw72sshMSxb9oW3mRo4MJrQkusV3fGFSTwaiu4wPBqMryA9DYVJCkW9n7twCffG5f5wX2sSkoDXGiZB1HPa7K7f865Kk4LqnrME",
+    "authorImage": "https://nft-marketplacee.web.app/static/media/author-12.2c9959c4700359b29013.jpg",
+    "authorId": 4,
+    "followers": 332,
+    "nftCollection": [
+      {
+        "id": 1,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.08,
+        "rarity": "1/20",
+        "likes": "59"
+      },
+      {
+        "id": 2,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.38,
+        "rarity": "1/30",
+        "likes": "58"
+      },
+      {
+        "id": 3,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.28,
+        "rarity": "1/10",
+        "likes": "58"
+      },
+      {
+        "id": 4,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.18,
+        "rarity": "1/23",
+        "likes": "55"
+      },
+      {
+        "id": 5,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.01,
+        "rarity": "1/20",
+        "likes": "53"
+      },
+      {
+        "id": 6,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.58,
+        "rarity": "1/20",
+        "likes": "30"
+      },
+      {
+        "id": 7,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.78,
+        "rarity": "1/25",
+        "likes": "50"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Antonio",
+    "tag": "antoniooo",
+    "address": "Asdfw72sshMSxb9oW3mRo4MJrQkusV3fGFSTwaiu4wPBqMryA9DYVJCkW9n7twCffG5f5wX2sSkoDXGiZB1HPa7K7f865Kk4LqnrME",
+    "authorImage": "https://nft-marketplacee.web.app/static/media/author-12.2c9959c4700359b29013.jpg",
+    "authorId": 4,
+    "followers": 332,
+    "nftCollection": [
+      {
+        "id": 1,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.08,
+        "rarity": "1/20",
+        "likes": "59"
+      },
+      {
+        "id": 2,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.38,
+        "rarity": "1/30",
+        "likes": "58"
+      },
+      {
+        "id": 3,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.28,
+        "rarity": "1/10",
+        "likes": "58"
+      },
+      {
+        "id": 4,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.18,
+        "rarity": "1/23",
+        "likes": "55"
+      },
+      {
+        "id": 5,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.01,
+        "rarity": "1/20",
+        "likes": "53"
+      },
+      {
+        "id": 6,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.58,
+        "rarity": "1/20",
+        "likes": "30"
+      },
+      {
+        "id": 7,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.78,
+        "rarity": "1/25",
+        "likes": "50"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Antonio",
+    "tag": "antoniooo",
+    "address": "Asdfw72sshMSxb9oW3mRo4MJrQkusV3fGFSTwaiu4wPBqMryA9DYVJCkW9n7twCffG5f5wX2sSkoDXGiZB1HPa7K7f865Kk4LqnrME",
+    "authorImage": "https://nft-marketplacee.web.app/static/media/author-12.2c9959c4700359b29013.jpg",
+    "authorId": 4,
+    "followers": 332,
+    "nftCollection": [
+      {
+        "id": 1,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.08,
+        "rarity": "1/20",
+        "likes": "59"
+      },
+      {
+        "id": 2,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.38,
+        "rarity": "1/30",
+        "likes": "58"
+      },
+      {
+        "id": 3,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.28,
+        "rarity": "1/10",
+        "likes": "58"
+      },
+      {
+        "id": 4,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.18,
+        "rarity": "1/23",
+        "likes": "55"
+      },
+      {
+        "id": 5,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.01,
+        "rarity": "1/20",
+        "likes": "53"
+      },
+      {
+        "id": 6,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.58,
+        "rarity": "1/20",
+        "likes": "30"
+      },
+      {
+        "id": 7,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.78,
+        "rarity": "1/25",
+        "likes": "50"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Antonio",
+    "tag": "antoniooo",
+    "address": "Asdfw72sshMSxb9oW3mRo4MJrQkusV3fGFSTwaiu4wPBqMryA9DYVJCkW9n7twCffG5f5wX2sSkoDXGiZB1HPa7K7f865Kk4LqnrME",
+    "authorImage": "https://nft-marketplacee.web.app/static/media/author-12.2c9959c4700359b29013.jpg",
+    "authorId": 4,
+    "followers": 332,
+    "nftCollection": [
+      {
+        "id": 1,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.08,
+        "rarity": "1/20",
+        "likes": "59"
+      },
+      {
+        "id": 2,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.38,
+        "rarity": "1/30",
+        "likes": "58"
+      },
+      {
+        "id": 3,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.28,
+        "rarity": "1/10",
+        "likes": "58"
+      },
+      {
+        "id": 4,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.18,
+        "rarity": "1/23",
+        "likes": "55"
+      },
+      {
+        "id": 5,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.01,
+        "rarity": "1/20",
+        "likes": "53"
+      },
+      {
+        "id": 6,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.58,
+        "rarity": "1/20",
+        "likes": "30"
+      },
+      {
+        "id": 7,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.78,
+        "rarity": "1/25",
+        "likes": "50"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Antonio",
+    "tag": "antoniooo",
+    "address": "Asdfw72sshMSxb9oW3mRo4MJrQkusV3fGFSTwaiu4wPBqMryA9DYVJCkW9n7twCffG5f5wX2sSkoDXGiZB1HPa7K7f865Kk4LqnrME",
+    "authorImage": "https://nft-marketplacee.web.app/static/media/author-12.2c9959c4700359b29013.jpg",
+    "authorId": 4,
+    "followers": 332,
+    "nftCollection": [
+      {
+        "id": 1,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.08,
+        "rarity": "1/20",
+        "likes": "59"
+      },
+      {
+        "id": 2,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.38,
+        "rarity": "1/30",
+        "likes": "58"
+      },
+      {
+        "id": 3,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.28,
+        "rarity": "1/10",
+        "likes": "58"
+      },
+      {
+        "id": 4,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.18,
+        "rarity": "1/23",
+        "likes": "55"
+      },
+      {
+        "id": 5,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.01,
+        "rarity": "1/20",
+        "likes": "53"
+      },
+      {
+        "id": 6,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.58,
+        "rarity": "1/20",
+        "likes": "30"
+      },
+      {
+        "id": 7,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.78,
+        "rarity": "1/25",
+        "likes": "50"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Antonio",
+    "tag": "antoniooo",
+    "address": "Asdfw72sshMSxb9oW3mRo4MJrQkusV3fGFSTwaiu4wPBqMryA9DYVJCkW9n7twCffG5f5wX2sSkoDXGiZB1HPa7K7f865Kk4LqnrME",
+    "authorImage": "https://nft-marketplacee.web.app/static/media/author-12.2c9959c4700359b29013.jpg",
+    "authorId": 4,
+    "followers": 332,
+    "nftCollection": [
+      {
+        "id": 1,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.08,
+        "rarity": "1/20",
+        "likes": "59"
+      },
+      {
+        "id": 2,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.38,
+        "rarity": "1/30",
+        "likes": "58"
+      },
+      {
+        "id": 3,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.28,
+        "rarity": "1/10",
+        "likes": "58"
+      },
+      {
+        "id": 4,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.18,
+        "rarity": "1/23",
+        "likes": "55"
+      },
+      {
+        "id": 5,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.01,
+        "rarity": "1/20",
+        "likes": "53"
+      },
+      {
+        "id": 6,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.58,
+        "rarity": "1/20",
+        "likes": "30"
+      },
+      {
+        "id": 7,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.78,
+        "rarity": "1/25",
+        "likes": "50"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Antonio",
+    "tag": "antoniooo",
+    "address": "Asdfw72sshMSxb9oW3mRo4MJrQkusV3fGFSTwaiu4wPBqMryA9DYVJCkW9n7twCffG5f5wX2sSkoDXGiZB1HPa7K7f865Kk4LqnrME",
+    "authorImage": "https://nft-marketplacee.web.app/static/media/author-12.2c9959c4700359b29013.jpg",
+    "authorId": 4,
+    "followers": 332,
+    "nftCollection": [
+      {
+        "id": 1,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.08,
+        "rarity": "1/20",
+        "likes": "59"
+      },
+      {
+        "id": 2,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.38,
+        "rarity": "1/30",
+        "likes": "58"
+      },
+      {
+        "id": 3,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.28,
+        "rarity": "1/10",
+        "likes": "58"
+      },
+      {
+        "id": 4,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.18,
+        "rarity": "1/23",
+        "likes": "55"
+      },
+      {
+        "id": 5,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.01,
+        "rarity": "1/20",
+        "likes": "53"
+      },
+      {
+        "id": 6,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.58,
+        "rarity": "1/20",
+        "likes": "30"
+      },
+      {
+        "id": 7,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.78,
+        "rarity": "1/25",
+        "likes": "50"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Antonio",
+    "tag": "antoniooo",
+    "address": "Asdfw72sshMSxb9oW3mRo4MJrQkusV3fGFSTwaiu4wPBqMryA9DYVJCkW9n7twCffG5f5wX2sSkoDXGiZB1HPa7K7f865Kk4LqnrME",
+    "authorImage": "https://nft-marketplacee.web.app/static/media/author-12.2c9959c4700359b29013.jpg",
+    "authorId": 4,
+    "followers": 332,
+    "nftCollection": [
+      {
+        "id": 1,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.08,
+        "rarity": "1/20",
+        "likes": "59"
+      },
+      {
+        "id": 2,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.38,
+        "rarity": "1/30",
+        "likes": "58"
+      },
+      {
+        "id": 3,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.28,
+        "rarity": "1/10",
+        "likes": "58"
+      },
+      {
+        "id": 4,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.18,
+        "rarity": "1/23",
+        "likes": "55"
+      },
+      {
+        "id": 5,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.01,
+        "rarity": "1/20",
+        "likes": "53"
+      },
+      {
+        "id": 6,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.58,
+        "rarity": "1/20",
+        "likes": "30"
+      },
+      {
+        "id": 7,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.78,
+        "rarity": "1/25",
+        "likes": "50"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Antonio",
+    "tag": "antoniooo",
+    "address": "Asdfw72sshMSxb9oW3mRo4MJrQkusV3fGFSTwaiu4wPBqMryA9DYVJCkW9n7twCffG5f5wX2sSkoDXGiZB1HPa7K7f865Kk4LqnrME",
+    "authorImage": "https://nft-marketplacee.web.app/static/media/author-12.2c9959c4700359b29013.jpg",
+    "authorId": 4,
+    "followers": 332,
+    "nftCollection": [
+      {
+        "id": 1,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.08,
+        "rarity": "1/20",
+        "likes": "59"
+      },
+      {
+        "id": 2,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.38,
+        "rarity": "1/30",
+        "likes": "58"
+      },
+      {
+        "id": 3,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.28,
+        "rarity": "1/10",
+        "likes": "58"
+      },
+      {
+        "id": 4,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.18,
+        "rarity": "1/23",
+        "likes": "55"
+      },
+      {
+        "id": 5,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.01,
+        "rarity": "1/20",
+        "likes": "53"
+      },
+      {
+        "id": 6,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.58,
+        "rarity": "1/20",
+        "likes": "30"
+      },
+      {
+        "id": 7,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.78,
+        "rarity": "1/25",
+        "likes": "50"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Antonio",
+    "tag": "antoniooo",
+    "address": "Asdfw72sshMSxb9oW3mRo4MJrQkusV3fGFSTwaiu4wPBqMryA9DYVJCkW9n7twCffG5f5wX2sSkoDXGiZB1HPa7K7f865Kk4LqnrME",
+    "authorImage": "https://nft-marketplacee.web.app/static/media/author-12.2c9959c4700359b29013.jpg",
+    "authorId": 4,
+    "followers": 332,
+    "nftCollection": [
+      {
+        "id": 1,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.08,
+        "rarity": "1/20",
+        "likes": "59"
+      },
+      {
+        "id": 2,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.38,
+        "rarity": "1/30",
+        "likes": "58"
+      },
+      {
+        "id": 3,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.28,
+        "rarity": "1/10",
+        "likes": "58"
+      },
+      {
+        "id": 4,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.18,
+        "rarity": "1/23",
+        "likes": "55"
+      },
+      {
+        "id": 5,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.01,
+        "rarity": "1/20",
+        "likes": "53"
+      },
+      {
+        "id": 6,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.58,
+        "rarity": "1/20",
+        "likes": "30"
+      },
+      {
+        "id": 7,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.78,
+        "rarity": "1/25",
+        "likes": "50"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Antonio",
+    "tag": "antoniooo",
+    "address": "Asdfw72sshMSxb9oW3mRo4MJrQkusV3fGFSTwaiu4wPBqMryA9DYVJCkW9n7twCffG5f5wX2sSkoDXGiZB1HPa7K7f865Kk4LqnrME",
+    "authorImage": "https://nft-marketplacee.web.app/static/media/author-12.2c9959c4700359b29013.jpg",
+    "authorId": 4,
+    "followers": 332,
+    "nftCollection": [
+      {
+        "id": 1,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.08,
+        "rarity": "1/20",
+        "likes": "59"
+      },
+      {
+        "id": 2,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.38,
+        "rarity": "1/30",
+        "likes": "58"
+      },
+      {
+        "id": 3,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.28,
+        "rarity": "1/10",
+        "likes": "58"
+      },
+      {
+        "id": 4,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.18,
+        "rarity": "1/23",
+        "likes": "55"
+      },
+      {
+        "id": 5,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.01,
+        "rarity": "1/20",
+        "likes": "53"
+      },
+      {
+        "id": 6,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.58,
+        "rarity": "1/20",
+        "likes": "30"
+      },
+      {
+        "id": 7,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.78,
+        "rarity": "1/25",
+        "likes": "50"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Antonio",
+    "tag": "antoniooo",
+    "address": "Asdfw72sshMSxb9oW3mRo4MJrQkusV3fGFSTwaiu4wPBqMryA9DYVJCkW9n7twCffG5f5wX2sSkoDXGiZB1HPa7K7f865Kk4LqnrME",
+    "authorImage": "https://nft-marketplacee.web.app/static/media/author-12.2c9959c4700359b29013.jpg",
+    "authorId": 4,
+    "followers": 332,
+    "nftCollection": [
+      {
+        "id": 1,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.08,
+        "rarity": "1/20",
+        "likes": "59"
+      },
+      {
+        "id": 2,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.38,
+        "rarity": "1/30",
+        "likes": "58"
+      },
+      {
+        "id": 3,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.28,
+        "rarity": "1/10",
+        "likes": "58"
+      },
+      {
+        "id": 4,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.18,
+        "rarity": "1/23",
+        "likes": "55"
+      },
+      {
+        "id": 5,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.01,
+        "rarity": "1/20",
+        "likes": "53"
+      },
+      {
+        "id": 6,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.58,
+        "rarity": "1/20",
+        "likes": "30"
+      },
+      {
+        "id": 7,
+        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "title": "Pinky Ocean",
+        "price": 0.78,
+        "rarity": "1/25",
+        "likes": "50"
+      }
+    ]
+  }
+]

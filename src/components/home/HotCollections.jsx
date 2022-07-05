@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
 import OwlCarousel from "react-owl-carousel";
 import { Link } from "react-router-dom";
-import { hotCollectionData } from "../../data/hotCollectionData";
+import axios from "axios";
 
 const HotCollections = () => {
-  const [hotCollection, setHotCollection] = useState([]);
-
+  const [hotCollections, setHotCollections] = useState([]);
   const options = {
     loop: true,
     margin: 10,
@@ -26,8 +25,16 @@ const HotCollections = () => {
     },
   };
 
+  const getExploreData = async () => {
+    const response = await axios.get(
+      `https://us-central1-nft-cloud-functions.cloudfunctions.net/hotCollections`
+    );
+
+    setHotCollections(response.data);
+  };
+
   useEffect(() => {
-    setHotCollection(hotCollectionData);
+    getExploreData();
   }, []);
 
   return (
@@ -41,31 +48,34 @@ const HotCollections = () => {
             </div>
           </div>
 
-
-          {hotCollection.length && (
+          {hotCollections.length && (
             <OwlCarousel className="owl-theme" {...options}>
-              {hotCollection.map((item, index) => (
+              {hotCollections.map((item, index) => (
                 <div className="nft_coll" key={index}>
                   <div className="nft_wrap">
                     <Link to="/explore">
                       <img
-                        src={item.backgroundImage}
+                        src={item.nftItem}
                         className="lazy img-fluid"
                         alt=""
                       />
                     </Link>
                   </div>
                   <div className="nft_coll_pp">
-                    <Link to="/author">
-                      <img className="lazy pp-coll" src={item.author} alt="" />
+                    <Link to={`/author/${item.authorId}`}>
+                      <img
+                        className="lazy pp-coll"
+                        src={item.authorImage}
+                        alt=""
+                      />
                     </Link>
                     <i className="fa fa-check"></i>
                   </div>
                   <div className="nft_coll_info">
                     <Link to="/explore">
-                      <h4>{item.title}</h4>
+                      <h4>{item.name}</h4>
                     </Link>
-                    <span>ERC-{item.erc}</span>
+                    <span>ERC-{item.code}</span>
                   </div>
                 </div>
               ))}
