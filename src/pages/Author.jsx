@@ -5,9 +5,10 @@ import AuthorItems from "../components/author/AuthorItems";
 import WOW from "wowjs";
 import axios from "axios";
 import { useParams } from "react-router-dom";
+import Skeleton from "../components/UI/Skeleton";
 
 const Author = () => {
-  const [authorData, setAuthorData] = useState([]);
+  const [authorData, setAuthorData] = useState("");
   const id = useParams().id;
 
   const getAuthorData = async () => {
@@ -46,34 +47,61 @@ const Author = () => {
                 <div className="d_profile de-flex">
                   <div className="de-flex-col">
                     <div className="profile_avatar">
-                      <img src={authorData.authorImage} alt="" />
+                      {authorData ? (
+                        <img src={authorData.authorImage} alt="" />
+                      ) : (
+                        <Skeleton
+                          width="150px"
+                          height="150px"
+                          borderRadius="50%"
+                        />
+                      )}
+
                       <i className="fa fa-check"></i>
                       <div className="profile_name">
-                        <h4>
-                          {authorData.name}
-                          <span className="profile_username">
-                            @{authorData.tag}
-                          </span>
-                          <span id="wallet" className="profile_wallet">
-                            {authorData.address}
-                          </span>
-                          <button id="btn_copy" title="Copy Text">
-                            Copy
-                          </button>
-                        </h4>
+                        {authorData ? (
+                          <h4>
+                            {authorData.name}
+                            <span className="profile_username">
+                              @{authorData.tag}
+                            </span>
+                            <span id="wallet" className="profile_wallet">
+                              {authorData.address}
+                            </span>
+                            <button id="btn_copy" title="Copy Text">
+                              Copy
+                            </button>
+                          </h4>
+                        ) : (
+                          <h4>
+                            <Skeleton width="200px" />
+                            <span className="profile_username">
+                              <Skeleton width="100px" />
+                            </span>
+                            <span id="wallet" className="profile_wallet">
+                              <Skeleton width="250px" />
+                            </span>
+                          </h4>
+                        )}
                       </div>
                     </div>
                   </div>
                   <div className="profile_follow de-flex">
                     <div className="de-flex-col">
-                      <div className="profile_follower">
-                        {authorData.followers} followers
-                      </div>
-                    </div>
-                    <div className="de-flex-col">
-                      <a href="#" className="btn-main">
-                        Follow
-                      </a>
+                      {authorData ? (
+                        <>
+                          <div className="profile_follower">
+                            {authorData.followers} followers
+                          </div>
+                          <a href="#" className="btn-main">
+                            Follow
+                          </a>
+                        </>
+                      ) : (
+                        <div className="profile_follower">
+                          <Skeleton width="150px" height="40px" />
+                        </div>
+                      )}
                     </div>
                   </div>
                 </div>

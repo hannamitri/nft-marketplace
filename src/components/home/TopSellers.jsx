@@ -1,8 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { topSellerData } from "../../data/topSellerData";
+import axios from "axios";
 
 const TopSellers = () => {
+  const [topSellers, setTopSellers] = useState([]);
+  const getExploreData = async () => {
+    const response = await axios.get(
+      `https://us-central1-nft-cloud-functions.cloudfunctions.net/topSellers`
+    );
+
+    setTopSellers(response.data);
+  };
+
+  useEffect(() => {
+    getExploreData();
+  }, []);
+
   return (
     <section id="section-popular" className="pb-5">
       <div className="container">
@@ -15,17 +28,21 @@ const TopSellers = () => {
           </div>
           <div className="col-md-12 wow fadeIn">
             <ol className="author_list">
-              {topSellerData.map((item, index) => (
+              {topSellers.map((item, index) => (
                 <li key={index}>
                   <div className="author_list_pp">
-                    <Link to="/author">
-                      <img className="lazy pp-author" src={item.image} alt="" />
+                    <Link to={`/author/${item.authorId}`}>
+                      <img
+                        className="lazy pp-author"
+                        src={item.authorImage}
+                        alt=""
+                      />
                       <i className="fa fa-check"></i>
                     </Link>
                   </div>
                   <div className="author_list_info">
-                    <Link to="/author">{item.name}</Link>
-                    <span>{item.eth} ETH</span>
+                    <Link to={`/author/${item.authorId}`}>{item.name}</Link>
+                    <span>{item.price} ETH</span>
                   </div>
                 </li>
               ))}

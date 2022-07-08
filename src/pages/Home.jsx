@@ -13,8 +13,8 @@ const Home = () => {
       live: false,
     }).init();
 
-    window.scrollTo(0, 0)
-  });
+    // window.scrollTo(0, 0)
+  }, []);
 
   return (
     <div id="wrapper">

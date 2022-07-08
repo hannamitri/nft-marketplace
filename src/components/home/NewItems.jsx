@@ -1,19 +1,17 @@
 import React, { useEffect, useState } from "react";
 import OwlCarousel from "react-owl-carousel";
 import { Link } from "react-router-dom";
-import { newItemsData } from "../../data/newItemsData";
 import axios from "axios";
 
 const NewItems = () => {
   const [newItems, setNewItems] = useState([]);
 
-  const [newTestItems, setNewTestItems] = useState([]);
   const getNewItems = async () => {
     const response = await axios.get(
       "https://us-central1-nft-cloud-functions.cloudfunctions.net/newItems"
     );
 
-    setNewTestItems(response.data);
+    setNewItems(response.data);
   };
 
   const options = {
@@ -37,10 +35,7 @@ const NewItems = () => {
   };
 
   useEffect(() => {
-    setNewItems(newItemsData);
     getNewItems();
-
-    console.log(newTestItems);
   }, []);
 
   return (
@@ -53,10 +48,9 @@ const NewItems = () => {
               <div className="small-border bg-color-2"></div>
             </div>
           </div>
-
-          {newTestItems.length && (
+          {newItems.length && (
             <OwlCarousel className="owl-theme" {...options}>
-              {newTestItems.map((item, index) => (
+              {newItems.map((item, index) => (
                 <div className="nft__item" key={index}>
                   <div className="author_list_pp">
                     <Link
@@ -106,9 +100,6 @@ const NewItems = () => {
                     <Link to="/item-details">
                       <h4>{item.title}</h4>
                     </Link>
-                    <div className="nft__item_click">
-                      <span></span>
-                    </div>
                     <div className="nft__item_price">{item.price} ETH</div>
                     <div className="nft__item_action">
                       <a href="#">Place a bid</a>

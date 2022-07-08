@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import Skeleton from "../UI/Skeleton";
 
 const ExploreItems = () => {
   const [itemCount, setItemCount] = useState(8);
@@ -16,7 +17,6 @@ const ExploreItems = () => {
   useEffect(() => {
     getExploreData();
   }, []);
-
   return (
     <>
       {exploreItems.length ? (
@@ -63,7 +63,7 @@ const ExploreItems = () => {
                   </div>
                 </div>
 
-                <Link to="/item-details">
+                <Link to={`/item-details/${item.nftId}`}>
                   <img
                     src={item.nftImage}
                     className="lazy nft__item_preview"
@@ -72,12 +72,9 @@ const ExploreItems = () => {
                 </Link>
               </div>
               <div className="nft__item_info">
-                <Link to="/item-details">
+                <Link to={`/item-details/${item.nftId}`}>
                   <h4>{item.title}</h4>
                 </Link>
-                <div className="nft__item_click">
-                  <span></span>
-                </div>
                 <div className="nft__item_price">
                   {item.price} ETH<span>{item.date}</span>
                 </div>
@@ -93,7 +90,13 @@ const ExploreItems = () => {
           </div>
         ))
       ) : (
-        <div>Loading...</div>
+        <>
+          {new Array(8).fill(0).map((_, index) => (
+            <div key={index} className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+              <Skeleton width="100%" height="400px" />
+            </div>
+          ))}
+        </>
       )}
       <div className="col-md-12 text-center">
         {itemCount !== 16 && (
