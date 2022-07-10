@@ -9,6 +9,7 @@ import Skeleton from "../components/UI/Skeleton";
 
 const Author = () => {
   const [authorData, setAuthorData] = useState("");
+  const [isFollowing, setIsFollowing] = useState(false);
   const id = useParams().id;
 
   const getAuthorData = async () => {
@@ -91,11 +92,26 @@ const Author = () => {
                       {authorData ? (
                         <>
                           <div className="profile_follower">
-                            {authorData.followers} followers
+                            {authorData.followers + (isFollowing ? 1 : 0)}{" "}
+                            followers
                           </div>
-                          <a href="#" className="btn-main">
-                            Follow
-                          </a>
+                          {isFollowing ? (
+                            <a
+                              href="#"
+                              className="btn-main"
+                              onClick={() => setIsFollowing(!isFollowing)}
+                            >
+                              Unfollow
+                            </a>
+                          ) : (
+                            <a
+                              href="#"
+                              className="btn-main"
+                              onClick={() => setIsFollowing(!isFollowing)}
+                            >
+                              Follow
+                            </a>
+                          )}
                         </>
                       ) : (
                         <div className="profile_follower">

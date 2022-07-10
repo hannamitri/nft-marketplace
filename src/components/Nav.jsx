@@ -49,7 +49,7 @@ const Nav = () => {
                       Explore<span></span>
                     </Link>
                   </li>
-                  <li className="menu-item-has-children has-child">
+                  {/* <li className="menu-item-has-children has-child">
                     <Link to="/author">
                       Author<span></span>
                     </Link>
@@ -58,7 +58,7 @@ const Nav = () => {
                     <Link to="/item-details">
                       Item Details<span></span>
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
 
                 <div className="menu_side_area">

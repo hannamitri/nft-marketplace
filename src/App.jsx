@@ -23,9 +23,9 @@ import CountDown from "./components/CountDown";
 function App() {
   return (
     <>
-      <CountDown />
       <Router>
         <Nav />
+        <CountDown />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/explore" element={<Explore />} />

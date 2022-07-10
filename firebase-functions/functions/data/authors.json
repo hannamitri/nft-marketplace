@@ -10,7 +10,7 @@
     "nftCollection": [
       {
         "id": 1,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
         "title": "Pinky Ocean",
         "price": 0.08,
         "rarity": "1/20",
@@ -18,7 +18,7 @@
       },
       {
         "id": 2,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.38,
         "rarity": "1/30",
@@ -26,7 +26,7 @@
       },
       {
         "id": 3,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.28,
         "rarity": "1/10",
@@ -34,7 +34,7 @@
       },
       {
         "id": 4,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-4.36e71f072984d5852ce2.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-4.36e71f072984d5852ce2.jpg",
         "title": "Pinky Ocean",
         "price": 0.18,
         "rarity": "1/23",
@@ -42,7 +42,7 @@
       },
       {
         "id": 5,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
         "title": "Pinky Ocean",
         "price": 0.01,
         "rarity": "1/20",
@@ -50,7 +50,7 @@
       },
       {
         "id": 6,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
         "title": "Pinky Ocean",
         "price": 0.58,
         "rarity": "1/20",
@@ -58,7 +58,7 @@
       },
       {
         "id": 7,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
         "title": "Pinky Ocean",
         "price": 0.78,
         "rarity": "1/25",
@@ -77,7 +77,7 @@
     "nftCollection": [
       {
         "id": 1,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
         "title": "Pinky Ocean",
         "price": 0.08,
         "rarity": "1/20",
@@ -85,7 +85,7 @@
       },
       {
         "id": 2,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.38,
         "rarity": "1/30",
@@ -93,7 +93,7 @@
       },
       {
         "id": 3,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.28,
         "rarity": "1/10",
@@ -101,7 +101,7 @@
       },
       {
         "id": 4,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.18,
         "rarity": "1/23",
@@ -109,7 +109,7 @@
       },
       {
         "id": 5,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.01,
         "rarity": "1/20",
@@ -117,7 +117,7 @@
       },
       {
         "id": 6,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
         "title": "Pinky Ocean",
         "price": 0.58,
         "rarity": "1/20",
@@ -125,7 +125,7 @@
       },
       {
         "id": 7,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
         "title": "Pinky Ocean",
         "price": 0.78,
         "rarity": "1/25",
@@ -144,7 +144,7 @@
     "nftCollection": [
       {
         "id": 1,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
         "title": "Pinky Ocean",
         "price": 0.08,
         "rarity": "1/20",
@@ -152,7 +152,7 @@
       },
       {
         "id": 2,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.38,
         "rarity": "1/30",
@@ -160,7 +160,7 @@
       },
       {
         "id": 3,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.28,
         "rarity": "1/10",
@@ -168,7 +168,7 @@
       },
       {
         "id": 4,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.18,
         "rarity": "1/23",
@@ -176,7 +176,7 @@
       },
       {
         "id": 5,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.01,
         "rarity": "1/20",
@@ -184,7 +184,7 @@
       },
       {
         "id": 6,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.58,
         "rarity": "1/20",
@@ -192,7 +192,7 @@
       },
       {
         "id": 7,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.78,
         "rarity": "1/25",
@@ -211,7 +211,7 @@
     "nftCollection": [
       {
         "id": 1,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
         "title": "Pinky Ocean",
         "price": 0.08,
         "rarity": "1/20",
@@ -219,7 +219,7 @@
       },
       {
         "id": 2,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.38,
         "rarity": "1/30",
@@ -227,7 +227,7 @@
       },
       {
         "id": 3,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.28,
         "rarity": "1/10",
@@ -235,7 +235,7 @@
       },
       {
         "id": 4,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.18,
         "rarity": "1/23",
@@ -243,7 +243,7 @@
       },
       {
         "id": 5,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.01,
         "rarity": "1/20",
@@ -251,7 +251,7 @@
       },
       {
         "id": 6,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.58,
         "rarity": "1/20",
@@ -259,7 +259,7 @@
       },
       {
         "id": 7,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.78,
         "rarity": "1/25",
@@ -278,7 +278,7 @@
     "nftCollection": [
       {
         "id": 1,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
         "title": "Pinky Ocean",
         "price": 0.08,
         "rarity": "1/20",
@@ -286,7 +286,7 @@
       },
       {
         "id": 2,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.38,
         "rarity": "1/30",
@@ -294,7 +294,7 @@
       },
       {
         "id": 3,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.28,
         "rarity": "1/10",
@@ -302,7 +302,7 @@
       },
       {
         "id": 4,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.18,
         "rarity": "1/23",
@@ -310,7 +310,7 @@
       },
       {
         "id": 5,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.01,
         "rarity": "1/20",
@@ -318,7 +318,7 @@
       },
       {
         "id": 6,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.58,
         "rarity": "1/20",
@@ -326,7 +326,7 @@
       },
       {
         "id": 7,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.78,
         "rarity": "1/25",
@@ -345,7 +345,7 @@
     "nftCollection": [
       {
         "id": 1,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
         "title": "Pinky Ocean",
         "price": 0.08,
         "rarity": "1/20",
@@ -353,7 +353,7 @@
       },
       {
         "id": 2,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.38,
         "rarity": "1/30",
@@ -361,7 +361,7 @@
       },
       {
         "id": 3,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.28,
         "rarity": "1/10",
@@ -369,7 +369,7 @@
       },
       {
         "id": 4,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.18,
         "rarity": "1/23",
@@ -377,7 +377,7 @@
       },
       {
         "id": 5,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.01,
         "rarity": "1/20",
@@ -385,7 +385,7 @@
       },
       {
         "id": 6,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.58,
         "rarity": "1/20",
@@ -393,7 +393,7 @@
       },
       {
         "id": 7,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.78,
         "rarity": "1/25",
@@ -412,7 +412,7 @@
     "nftCollection": [
       {
         "id": 1,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
         "title": "Pinky Ocean",
         "price": 0.08,
         "rarity": "1/20",
@@ -420,7 +420,7 @@
       },
       {
         "id": 2,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.38,
         "rarity": "1/30",
@@ -428,7 +428,7 @@
       },
       {
         "id": 3,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.28,
         "rarity": "1/10",
@@ -436,7 +436,7 @@
       },
       {
         "id": 4,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.18,
         "rarity": "1/23",
@@ -444,7 +444,7 @@
       },
       {
         "id": 5,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.01,
         "rarity": "1/20",
@@ -452,7 +452,7 @@
       },
       {
         "id": 6,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.58,
         "rarity": "1/20",
@@ -460,7 +460,7 @@
       },
       {
         "id": 7,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.78,
         "rarity": "1/25",
@@ -479,7 +479,7 @@
     "nftCollection": [
       {
         "id": 1,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
         "title": "Pinky Ocean",
         "price": 0.08,
         "rarity": "1/20",
@@ -487,7 +487,7 @@
       },
       {
         "id": 2,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.38,
         "rarity": "1/30",
@@ -495,7 +495,7 @@
       },
       {
         "id": 3,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.28,
         "rarity": "1/10",
@@ -503,7 +503,7 @@
       },
       {
         "id": 4,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.18,
         "rarity": "1/23",
@@ -511,7 +511,7 @@
       },
       {
         "id": 5,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.01,
         "rarity": "1/20",
@@ -519,7 +519,7 @@
       },
       {
         "id": 6,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.58,
         "rarity": "1/20",
@@ -527,7 +527,7 @@
       },
       {
         "id": 7,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.78,
         "rarity": "1/25",
@@ -546,7 +546,7 @@
     "nftCollection": [
       {
         "id": 1,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
         "title": "Pinky Ocean",
         "price": 0.08,
         "rarity": "1/20",
@@ -554,7 +554,7 @@
       },
       {
         "id": 2,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.38,
         "rarity": "1/30",
@@ -562,7 +562,7 @@
       },
       {
         "id": 3,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.28,
         "rarity": "1/10",
@@ -570,7 +570,7 @@
       },
       {
         "id": 4,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.18,
         "rarity": "1/23",
@@ -578,7 +578,7 @@
       },
       {
         "id": 5,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.01,
         "rarity": "1/20",
@@ -586,7 +586,7 @@
       },
       {
         "id": 6,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.58,
         "rarity": "1/20",
@@ -594,7 +594,7 @@
       },
       {
         "id": 7,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.78,
         "rarity": "1/25",
@@ -613,7 +613,7 @@
     "nftCollection": [
       {
         "id": 1,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
         "title": "Pinky Ocean",
         "price": 0.08,
         "rarity": "1/20",
@@ -621,7 +621,7 @@
       },
       {
         "id": 2,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.38,
         "rarity": "1/30",
@@ -629,7 +629,7 @@
       },
       {
         "id": 3,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.28,
         "rarity": "1/10",
@@ -637,7 +637,7 @@
       },
       {
         "id": 4,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.18,
         "rarity": "1/23",
@@ -645,7 +645,7 @@
       },
       {
         "id": 5,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.01,
         "rarity": "1/20",
@@ -653,7 +653,7 @@
       },
       {
         "id": 6,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.58,
         "rarity": "1/20",
@@ -661,7 +661,7 @@
       },
       {
         "id": 7,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.78,
         "rarity": "1/25",
@@ -680,7 +680,7 @@
     "nftCollection": [
       {
         "id": 1,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
         "title": "Pinky Ocean",
         "price": 0.08,
         "rarity": "1/20",
@@ -688,7 +688,7 @@
       },
       {
         "id": 2,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.38,
         "rarity": "1/30",
@@ -696,7 +696,7 @@
       },
       {
         "id": 3,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.28,
         "rarity": "1/10",
@@ -704,7 +704,7 @@
       },
       {
         "id": 4,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.18,
         "rarity": "1/23",
@@ -712,7 +712,7 @@
       },
       {
         "id": 5,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.01,
         "rarity": "1/20",
@@ -720,7 +720,7 @@
       },
       {
         "id": 6,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.58,
         "rarity": "1/20",
@@ -728,7 +728,7 @@
       },
       {
         "id": 7,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.78,
         "rarity": "1/25",
@@ -747,7 +747,7 @@
     "nftCollection": [
       {
         "id": 1,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-1.0299eed903ee71c8c953.jpg",
         "title": "Pinky Ocean",
         "price": 0.08,
         "rarity": "1/20",
@@ -755,7 +755,7 @@
       },
       {
         "id": 2,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.38,
         "rarity": "1/30",
@@ -763,7 +763,7 @@
       },
       {
         "id": 3,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.28,
         "rarity": "1/10",
@@ -771,7 +771,7 @@
       },
       {
         "id": 4,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.18,
         "rarity": "1/23",
@@ -779,7 +779,7 @@
       },
       {
         "id": 5,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-2.6fd71608544b350c8a08.jpg",
         "title": "Pinky Ocean",
         "price": 0.01,
         "rarity": "1/20",
@@ -787,7 +787,7 @@
       },
       {
         "id": 6,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.58,
         "rarity": "1/20",
@@ -795,7 +795,7 @@
       },
       {
         "id": 7,
-        "nftItem": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
+        "nftImage": "https://nft-marketplacee.web.app/static/media/porto-3.db73ebab6bd98b679fd6.jpg",
         "title": "Pinky Ocean",
         "price": 0.78,
         "rarity": "1/25",

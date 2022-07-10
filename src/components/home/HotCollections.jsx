@@ -53,9 +53,9 @@ const HotCollections = () => {
               {hotCollections.map((item, index) => (
                 <div className="nft_coll" key={index}>
                   <div className="nft_wrap">
-                    <Link to="/explore">
+                    <Link to={`/item-details/${item.nftId}`}>
                       <img
-                        src={item.nftItem}
+                        src={item.nftImage}
                         className="lazy img-fluid"
                         alt=""
                       />
@@ -73,7 +73,7 @@ const HotCollections = () => {
                   </div>
                   <div className="nft_coll_info">
                     <Link to="/explore">
-                      <h4>{item.name}</h4>
+                      <h4>{item.title}</h4>
                     </Link>
                     <span>ERC-{item.code}</span>
                   </div>

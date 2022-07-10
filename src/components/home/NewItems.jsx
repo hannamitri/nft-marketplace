@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import OwlCarousel from "react-owl-carousel";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import CountDown from "../CountDown";
 
 const NewItems = () => {
   const [newItems, setNewItems] = useState([]);
@@ -63,6 +64,7 @@ const NewItems = () => {
                       <i className="fa fa-check"></i>
                     </Link>
                   </div>
+
                   <div className="nft__item_wrap">
                     <div className="nft__item_extra">
                       <div className="nft__item_buttons">
@@ -88,22 +90,19 @@ const NewItems = () => {
                       </div>
                     </div>
 
-                    <Link to="/item-details">
+                    <Link to={`/item-details/${item.nftId}`}>
                       <img
-                        src={item.itemImage}
+                        src={item.nftImage}
                         className="lazy nft__item_preview"
                         alt=""
                       />
                     </Link>
                   </div>
                   <div className="nft__item_info">
-                    <Link to="/item-details">
+                    <Link to={`/item-details/${item.nftId}`}>
                       <h4>{item.title}</h4>
                     </Link>
                     <div className="nft__item_price">{item.price} ETH</div>
-                    <div className="nft__item_action">
-                      <a href="#">Place a bid</a>
-                    </div>
                     <div className="nft__item_like">
                       <i className="fa fa-heart"></i>
                       <span>{item.likes}</span>

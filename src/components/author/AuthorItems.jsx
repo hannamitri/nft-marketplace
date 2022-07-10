@@ -47,7 +47,7 @@ const AuthorItems = ({ authorData }) => {
                     </div>
                     <Link to="/item-details">
                       <img
-                        src={item.nftItem}
+                        src={item.nftImage}
                         className="lazy nft__item_preview"
                         alt=""
                       />
@@ -58,7 +58,7 @@ const AuthorItems = ({ authorData }) => {
                       <h4>{item.title}</h4>
                     </Link>
                     <div className="nft__item_price">
-                      {item.price} ETH<span>1/20</span>
+                      {item.price} ETH<span>{item.rarity}</span>
                     </div>
                     <div className="nft__item_action">
                       <a href="#">Place a bid</a>
