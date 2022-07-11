@@ -6,6 +6,7 @@
     "nftImage": "https://nft-place.web.app/static/media/static-1.0299eed903ee71c8c953.jpg",
     "nftId": 10147817,
     "title": "Pinky Ocean",
+    "countdownInHours": 3,
     "price": 5.07,
     "likes": 69
   },
@@ -16,6 +17,7 @@
     "nftImage": "https://nft-place.web.app/static/media/static-2.f38fe0e74860176d8f2d.jpg",
     "nftId": 92975188,
     "title": "Deep Sea Phantasy",
+    "countdownInHours": 0,
     "price": 0.17,
     "likes": 99
   },
@@ -26,6 +28,7 @@
     "nftImage": "https://nft-place.web.app/static/media/static-3.8f1e89373de1274fe9c6.jpg",
     "nftId": 98524219,
     "title": "Rainbow Style",
+    "countdownInHours": 0,
     "price": 0.18,
     "likes": 17
   },
@@ -36,6 +39,7 @@
     "nftImage": "https://nft-place.web.app/static/media/static-4.0e2c391686fc6defcfd9.jpg",
     "nftId": 78811904,
     "title": "Two Tigers",
+    "countdownInHours": 1,
     "price": 0.77,
     "likes": 16
   },
@@ -46,6 +50,7 @@
     "nftImage": "https://nft-place.web.app/static/media/anim-4.bd2eb7744a130b2636b4.webp",
     "nftId": 85957417,
     "title": "The Truth",
+    "countdownInHours": 2,
     "price": 0.27,
     "likes": 14
   },
@@ -56,6 +61,7 @@
     "nftImage": "https://nft-place.web.app/static/media/anim-2.ac14b55e98709d64198c.webp",
     "nftId": 39337249,
     "title": "Running Puppets",
+    "countdownInHours": 3,
     "price": 0.37,
     "likes": 74
   },
@@ -66,6 +72,7 @@
     "nftImage": "https://nft-place.web.app/static/media/anim-1.9c59fdcaaf5f707e9d00.webp",
     "nftId": 41114406,
     "title": "USA Wordmation",
+    "countdownInHours": 0,
     "price": 1.07,
     "likes": 42
   }

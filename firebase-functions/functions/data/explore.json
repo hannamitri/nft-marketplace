@@ -6,6 +6,7 @@
     "nftImage": "https://nft-place.web.app/static/media/static-1.0299eed903ee71c8c953.jpg",
     "nftId": 10147817,
     "title": "Pinky Ocean",
+    "countdownInHours": 3,
     "price": 5.07,
     "likes": 69
   },
@@ -16,6 +17,7 @@
     "nftImage": "https://nft-place.web.app/static/media/static-2.f38fe0e74860176d8f2d.jpg",
     "nftId": 92975188,
     "title": "Deep Sea Phantasy",
+    "countdownInHours": 0,
     "price": 0.17,
     "likes": 99
   },
@@ -26,6 +28,7 @@
     "nftImage": "https://nft-place.web.app/static/media/static-3.8f1e89373de1274fe9c6.jpg",
     "nftId": 98524219,
     "title": "Rainbow Style",
+    "countdownInHours": 4,
     "price": 0.18,
     "likes": 17
   },
@@ -36,6 +39,7 @@
     "nftImage": "https://nft-place.web.app/static/media/static-4.0e2c391686fc6defcfd9.jpg",
     "nftId": 78811904,
     "title": "Two Tigers",
+    "countdownInHours": 0,
     "price": 0.77,
     "likes": 16
   },
@@ -46,6 +50,7 @@
     "nftImage": "https://nft-place.web.app/static/media/anim-4.bd2eb7744a130b2636b4.webp",
     "nftId": 85957417,
     "title": "The Truth",
+    "countdownInHours": 0,
     "price": 0.27,
     "likes": 14
   },
@@ -56,6 +61,7 @@
     "nftImage": "https://nft-place.web.app/static/media/anim-2.ac14b55e98709d64198c.webp",
     "nftId": 39337249,
     "title": "Running Puppets",
+    "countdownInHours": 0,
     "price": 0.37,
     "likes": 74
   },
@@ -66,6 +72,7 @@
     "nftImage": "https://nft-place.web.app/static/media/anim-1.9c59fdcaaf5f707e9d00.webp",
     "nftId": 41114406,
     "title": "USA Wordmation",
+    "countdownInHours": 3,
     "price": 1.07,
     "likes": 42
   },
@@ -76,6 +83,7 @@
     "nftImage": "https://nft-place.web.app/static/media/anim-5.0e86236d65f699e63c1d.webp",
     "nftId": 45303873,
     "title": "Loop Donut",
+    "countdownInHours": 3,
     "price": 1.85,
     "likes": 32
   },
@@ -86,6 +94,7 @@
     "nftImage": "https://nft-place.web.app/static/media/anim-3.66e687b5d1821a64b819.webp",
     "nftId": 25537426,
     "title": "Lady Copter",
+    "countdownInHours": 8,
     "price": 1.25,
     "likes": 70
   },
@@ -96,6 +105,7 @@
     "nftImage": "https://nft-place.web.app/static/media/static-5.9828d03ad62889ad337c.jpg",
     "nftId": 58729982,
     "title": "Purple Planet",
+    "countdownInHours": 12,
     "price": 1.25,
     "likes": 60
   },
@@ -106,6 +116,7 @@
     "nftImage": "https://nft-place.web.app/static/media/anim-6.030fd2c9889d0209c704.webp",
     "nftId": 17551071,
     "title": "Oh Yeah!",
+    "countdownInHours": 0,
     "price": 1.57,
     "likes": 48
   },
@@ -116,6 +127,7 @@
     "nftImage": "https://nft-place.web.app/static/media/anim-7.437286de724d9703d128.webp",
     "nftId": 34521163,
     "title": "This Our Story",
+    "countdownInHours": 3,
     "price": 0.22,
     "likes": 65
   },
@@ -126,6 +138,7 @@
     "nftImage": "https://nft-place.web.app/static/media/static-6.63d4ba6fbbe0a170b45e.jpg",
     "nftId": 14993841,
     "title": "Pixel World",
+    "countdownInHours": 3,
     "price": 0.31,
     "likes": 25
   },
@@ -136,6 +149,7 @@
     "nftImage": "https://nft-place.web.app/static/media/anim-8.812c1bb2534fe87e08ed.webp",
     "nftId": 16363546,
     "title": "I Believe I Can Fly",
+    "countdownInHours": 3,
     "price": 0.62,
     "likes": 93
   },
@@ -146,6 +160,7 @@
     "nftImage": "https://nft-place.web.app/static/media/static-7.f3cbb50e507bbf4b4510.jpg",
     "nftId": 93788595,
     "title": "Cute Astronout",
+    "countdownInHours": 3,
     "price": 0.32,
     "likes": 75
   },
@@ -156,6 +171,7 @@
     "nftImage": "https://nft-place.web.app/static/media/static-8.4752b2b530f628210124.jpg",
     "nftId": 32318930,
     "title": "Teal Ocean",
+    "countdownInHours": 3,
     "price": 0.29,
     "likes": 68
   }

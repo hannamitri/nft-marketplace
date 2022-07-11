@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import OwlCarousel from "react-owl-carousel";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import Skeleton from "../UI/Skeleton";
 
 const HotCollections = () => {
   const [hotCollections, setHotCollections] = useState([]);
@@ -48,7 +49,7 @@ const HotCollections = () => {
             </div>
           </div>
 
-          {hotCollections.length && (
+          {hotCollections.length ? (
             <OwlCarousel className="owl-theme" {...options}>
               {hotCollections.map((item, index) => (
                 <div className="nft_coll" key={index}>
@@ -80,6 +81,37 @@ const HotCollections = () => {
                 </div>
               ))}
             </OwlCarousel>
+          ) : (
+            <>
+              <OwlCarousel className="owl-theme" {...options}>
+                {new Array(8).fill(0).map((_, index) => (
+                  <div className="nft_coll" key={index}>
+                    <div className="nft_wrap">
+                      <Link to={``}>
+                        <Skeleton width="100%" height="200px" />
+                      </Link>
+                    </div>
+                    <div className="nft_coll_pp">
+                      <Link to={``}>
+                        <Skeleton
+                          width="50px"
+                          height="50px"
+                          borderRadius="50%"
+                        />
+                      </Link>
+                      <i className="fa fa-check"></i>
+                    </div>
+                    <div className="nft_coll_info">
+                      <Link to="">
+                        <Skeleton width="100px" height="20px" />
+                      </Link>
+                      <br />
+                      <Skeleton width="60px" height="20px" />
+                    </div>
+                  </div>
+                ))}
+              </OwlCarousel>
+            </>
           )}
         </div>
       </div>

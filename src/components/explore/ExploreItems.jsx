@@ -34,7 +34,7 @@ const ExploreItems = () => {
       <div>
         <select
           id="filter-items"
-          defaultValue={"DEFAULT"}
+          defaultValue=""
           onChange={(event) => filterItems(event.target.value)}
         >
           <option value="">Default</option>
@@ -61,7 +61,10 @@ const ExploreItems = () => {
                   <i className="fa fa-check"></i>
                 </Link>
               </div>
-              <CountDown timeInHours={3} />
+              {item.countdownInHours && (
+                <CountDown timeInHours={item.countdownInHours} />
+              )}
+
               <div className="nft__item_wrap">
                 <div className="nft__item_extra">
                   <div className="nft__item_buttons">

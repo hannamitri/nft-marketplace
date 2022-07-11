@@ -1,15 +1,13 @@
 import React, { useState } from "react";
 
 const CountDown = ({ timeInHours }) => {
-  // const [timeRemaining, setTimeRemaining] = useState(timeInHours);
-  var countDownDate = new Date("Sept 5, 2022 15:37:25").getTime();
-  const TIME_FROM_NOW = Date.parse(new Date()) + 24 * 60 * 60 * 1000;
-  const DEADLINE = new Date(TIME_FROM_NOW);
-  const [timeRemaining, setTimeRemaining] = useState(
-    Date.parse(DEADLINE) - Date.parse(new Date())
-  );
+  const timeFromNow = Date.parse(new Date()) + timeInHours * 60 * 60 * 1000;
+  const deadline = new Date(timeFromNow);
+  const [timeRemaining, setTimeRemaining] = useState(0);
+  const [timeText, setTimeText] = useState("");
 
-  var x = setInterval(function () {
+  function calculateTime() {
+    setTimeRemaining(Date.parse(deadline) - Date.parse(new Date()));
     var seconds = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
     var hours = Math.floor(
       (timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
@@ -17,13 +15,17 @@ const CountDown = ({ timeInHours }) => {
     var minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
 
-    if (1 < 0) {
-      clearInterval(x);
-      setTimeRemaining("EXPIRED");
-    }
-  }, 1000 / 60);
+    setTimeText(`${hours}h ${minutes}m ${seconds}s`);
 
-  return <div className="de_countdown">{timeRemaining}</div>;
+    if (timeRemaining < 0) {
+      clearInterval(x);
+      setTimeText("EXPIRED");
+    }
+  }
+
+  var x = setInterval(calculateTime, 1000 / 60);
+
+  return <div className="de_countdown">{timeText}</div>;
 };
 
 export default CountDown;
