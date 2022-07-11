@@ -57,9 +57,7 @@ const AuthorItems = ({ authorData }) => {
                     <Link to={`/item-details/${item.nftId}`}>
                       <h4>{item.title}</h4>
                     </Link>
-                    <div className="nft__item_price">
-                      {item.price} ETH<span>{item.rarity}</span>
-                    </div>
+                    <div className="nft__item_price">{item.price} ETH</div>
                     <div className="nft__item_like">
                       <i className="fa fa-heart"></i>
                       <span>{item.likes}</span>
