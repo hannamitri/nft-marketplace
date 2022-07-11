@@ -1,33 +1,27 @@
 import React, { useState } from "react";
 
 const CountDown = ({ timeInHours }) => {
-  const [timeRemaining, setTimeRemaining] = useState(timeInHours);
-  let countDownDate = new Date(
-    new Date().setHours(new Date().getHours() + timeInHours)
+  // const [timeRemaining, setTimeRemaining] = useState(timeInHours);
+  var countDownDate = new Date("Sept 5, 2022 15:37:25").getTime();
+  const TIME_FROM_NOW = Date.parse(new Date()) + 24 * 60 * 60 * 1000;
+  const DEADLINE = new Date(TIME_FROM_NOW);
+  const [timeRemaining, setTimeRemaining] = useState(
+    Date.parse(DEADLINE) - Date.parse(new Date())
   );
 
-  let x = setInterval(myFunction, 1000 / 60);
-
-  function myFunction() {
-    // Get todays date and time
-    let now = new Date().getTime();
-
-    // Find the distance between now an the count down date
-    let distance = countDownDate - now;
-
-    let seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    let hours = Math.floor(
-      (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+  var x = setInterval(function () {
+    var seconds = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+    var hours = Math.floor(
+      (timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
     );
+    var minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
 
-    setTimeRemaining(hours + "h   " + minutes + "m   " + seconds + "s ");
-
-    if (distance < 0) {
+    if (1 < 0) {
       clearInterval(x);
-      setTimeRemaining("0h 0m 0s");
+      setTimeRemaining("EXPIRED");
     }
-  }
+  }, 1000 / 60);
 
   return <div className="de_countdown">{timeRemaining}</div>;
 };

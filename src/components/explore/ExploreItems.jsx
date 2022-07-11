@@ -95,9 +95,6 @@ const ExploreItems = () => {
                 <div className="nft__item_price">
                   {item.price} ETH<span>{item.date}</span>
                 </div>
-                <div className="nft__item_action">
-                  <a href="#">Place a bid</a>
-                </div>
                 <div className="nft__item_like">
                   <i className="fa fa-heart"></i>
                   <span>{item.likes}</span>
