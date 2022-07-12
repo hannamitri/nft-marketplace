@@ -15,25 +15,64 @@ exports.authors = functions.https.onRequest((data, context) => {
 
 exports.newItems = functions.https.onRequest((_, context) => {
   context.set("Access-Control-Allow-Origin", "*");
-  context.send(newItems);
+  const items = newItems.map((item) => {
+    const obj = {
+      id: item.id,
+      authorId: item.authorId,
+      authorImage: item.authorImage,
+      nftImage: item.nftImage,
+      nftId: item.nftId,
+      title: item.title,
+      price: item.price,
+      likes: item.likes,
+      expiryDate: item.countdownInMinutes ?
+      Date.now() + item.countdownInMinutes * 60 * 1000 :
+      null,
+    };
+
+    delete obj.countdownInMinutes;
+
+    return obj;
+  });
+
+  context.send(items);
 });
 
 exports.explore = functions.https.onRequest((data, context) => {
   context.set("Access-Control-Allow-Origin", "*");
   const filterOption = data.query.filter;
-  if (filterOption) {
-    if (filterOption === "price_high_to_low") {
-      const filteredItems = explore.slice().sort((a, b) => b.price - a.price);
-      context.send(filteredItems);
-    } else if (filterOption === "price_low_to_high") {
-      const filteredItems = explore.slice().sort((a, b) => a.price - b.price);
-      context.send(filteredItems);
-    } else if (filterOption === "likes_high_to_low") {
-      const filteredItems = explore.slice().sort((a, b) => b.likes - a.likes);
-      context.send(filteredItems);
-    }
-  } else {
-    context.send(explore);
+  const items = explore.map((item) => {
+    const obj = {
+      id: item.id,
+      authorId: item.authorId,
+      authorImage: item.authorImage,
+      nftImage: item.nftImage,
+      nftId: item.nftId,
+      title: item.title,
+      price: item.price,
+      likes: item.likes,
+      expiryDate: item.countdownInMinutes ?
+      Date.now() + item.countdownInMinutes * 60 * 1000 :
+      null,
+    };
+
+    delete obj.countdownInMinutes;
+
+    return obj;
+  });
+
+  if (!filterOption) {
+    return context.send(items);
+  }
+
+  const itemsCopy = items.slice();
+
+  if (filterOption === "price_high_to_low") {
+    context.send(itemsCopy.sort((a, b) => b.price - a.price));
+  } else if (filterOption === "price_low_to_high") {
+    context.send(itemsCopy.sort((a, b) => a.price - b.price));
+  } else if (filterOption === "likes_high_to_low") {
+    context.send(itemsCopy.sort((a, b) => b.likes - a.likes));
   }
 });
 
