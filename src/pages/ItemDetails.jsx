@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
-import ItemDetailsImage from "../images/items/big-4.jpg";
 import EthImage from "../images/misc/ethereum.svg";
-import Author1 from "../images/author/author-1.jpg";
 import Author10 from "../images/author/author-10.jpg";
 import WOW from "wowjs";
 import { Link, useParams } from "react-router-dom";

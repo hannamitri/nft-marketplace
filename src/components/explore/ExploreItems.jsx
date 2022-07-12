@@ -74,12 +74,14 @@ const ExploreItems = () => {
                       <a
                         href="https://www.facebook.com/sharer/sharer.php?u=https://gigaland.io"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <i className="fa fa-facebook fa-lg"></i>
                       </a>
                       <a
                         href="https://twitter.com/intent/tweet?url=https://gigaland.io"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <i className="fa fa-twitter fa-lg"></i>
                       </a>

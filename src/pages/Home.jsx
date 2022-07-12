@@ -12,8 +12,6 @@ const Home = () => {
     new WOW.WOW({
       live: false,
     }).init();
-
-    // window.scrollTo(0, 0)
   }, []);
 
   return (
@@ -27,7 +25,6 @@ const Home = () => {
         <TopSellers />
         <BrowseByCategory />
       </div>
-      <a href="#" id="back-to-top"></a>
     </div>
   );
 };

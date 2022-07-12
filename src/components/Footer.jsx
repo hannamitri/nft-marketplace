@@ -12,22 +12,22 @@ const Footer = () => {
               <h5>Marketplace</h5>
               <ul>
                 <li>
-                  <a href="#">All NFTs</a>
+                  <Link to="#">All NFTs</Link>
                 </li>
                 <li>
-                  <a href="#">Art</a>
+                  <Link to="#">Art</Link>
                 </li>
                 <li>
-                  <a href="#">Music</a>
+                  <Link to="#">Music</Link>
                 </li>
                 <li>
-                  <a href="#">Domain Names</a>
+                  <Link to="#">Domain Names</Link>
                 </li>
                 <li>
-                  <a href="#">Virtual World</a>
+                  <Link to="#">Virtual World</Link>
                 </li>
                 <li>
-                  <a href="#">Collectibles</a>
+                  <Link to="#">Collectibles</Link>
                 </li>
               </ul>
             </div>
@@ -37,22 +37,22 @@ const Footer = () => {
               <h5>Resources</h5>
               <ul>
                 <li>
-                  <a href="#">Help Center</a>
+                  <Link to="#">Help Center</Link>
                 </li>
                 <li>
-                  <a href="#">Partners</a>
+                  <Link to="#">Partners</Link>
                 </li>
                 <li>
-                  <a href="#">Suggestions</a>
+                  <Link to="#">Suggestions</Link>
                 </li>
                 <li>
-                  <a href="#">Discord</a>
+                  <Link to="#">Discord</Link>
                 </li>
                 <li>
-                  <a href="#">Docs</a>
+                  <Link to="#">Docs</Link>
                 </li>
                 <li>
-                  <a href="#">Newsletter</a>
+                  <Link to="#">Newsletter</Link>
                 </li>
               </ul>
             </div>
@@ -62,22 +62,22 @@ const Footer = () => {
               <h5>Community</h5>
               <ul>
                 <li>
-                  <a href="#">Community</a>
+                  <Link to="#">Community</Link>
                 </li>
                 <li>
-                  <a href="#">Documentation</a>
+                  <Link to="#">Documentation</Link>
                 </li>
                 <li>
-                  <a href="#">Brand Assets</a>
+                  <Link to="#">Brand Assets</Link>
                 </li>
                 <li>
-                  <a href="#">Blog</a>
+                  <Link to="#">Blog</Link>
                 </li>
                 <li>
-                  <a href="#">Forum</a>
+                  <Link to="#">Forum</Link>
                 </li>
                 <li>
-                  <a href="#">Mailing List</a>
+                  <Link to="#">Mailing List</Link>
                 </li>
               </ul>
             </div>
@@ -103,9 +103,9 @@ const Footer = () => {
                     placeholder="enter your email"
                     type="text"
                   />
-                  <a href="#" id="btn-subscribe">
+                  <Link to="#" id="btn-subscribe">
                     <i className="arrow_right bg-color-secondary"></i>
-                  </a>
+                  </Link>
                   <div className="clearfix"></div>
                 </div>
               </form>
@@ -121,29 +121,10 @@ const Footer = () => {
             <div className="col-md-12">
               <div className="de-flex footer__wrapper">
                 <div className="de-flex-col">
-                  <Link to="/">
+                  <Link className="footer__link" to="/">
                     <img alt="" className="f-logo" src={Logo} />
                     <span className="copy">&copy; Copyright 2022</span>
                   </Link>
-                </div>
-                <div className="de-flex-col">
-                  <div className="social-icons">
-                    <a href="#">
-                      <i className="fa fa-facebook fa-lg"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-twitter fa-lg"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-linkedin fa-lg"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-pinterest fa-lg"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-rss fa-lg"></i>
-                    </a>
-                  </div>
                 </div>
               </div>
             </div>

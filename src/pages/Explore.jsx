@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import SubHeader from "../images/background/subheader.jpg";
 import ExploreItems from "../components/explore/ExploreItems";
 import WOW from "wowjs";
@@ -42,8 +42,6 @@ const Explore = () => {
           </div>
         </section>
       </div>
-
-      <a href="#" id="back-to-top"></a>
     </div>
   );
 };

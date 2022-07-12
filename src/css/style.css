@@ -1284,6 +1284,15 @@ section.no-bg,
   z-index: 1000;
 }
 
+.footer__wrapper {
+  justify-content: center !important;
+}
+
+.footer__link {
+  display: flex;
+  flex-direction: column;
+}
+
 /* ================================================== */
 
 /* footer */

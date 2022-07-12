@@ -1,24 +1,24 @@
 import React, { useEffect, useState } from "react";
 import AuthorBanner from "../images/author_single/author_banner.jpg";
-import AuthorThumbnail from "../images/author_single/author_thumbnail.jpg";
 import AuthorItems from "../components/author/AuthorItems";
 import WOW from "wowjs";
 import axios from "axios";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Skeleton from "../components/UI/Skeleton";
+import { useCallback } from "react";
 
 const Author = () => {
   const [authorData, setAuthorData] = useState("");
   const [isFollowing, setIsFollowing] = useState(false);
   const id = useParams().id;
 
-  const getAuthorData = async () => {
+  const getAuthorData = useCallback(async () => {
     const response = await axios.get(
       `https://us-central1-nft-cloud-functions.cloudfunctions.net/authors?author=${id}`
     );
 
     setAuthorData(response.data);
-  };
+  }, [id]);
 
   useEffect(() => {
     new WOW.WOW({
@@ -27,7 +27,8 @@ const Author = () => {
 
     window.scrollTo(0, 0);
     getAuthorData();
-  }, []);
+  }, [getAuthorData]);
+
   return (
     <div id="wrapper">
       <div className="no-bottom no-top" id="content">
@@ -96,21 +97,21 @@ const Author = () => {
                             followers
                           </div>
                           {isFollowing ? (
-                            <a
-                              href="#"
+                            <Link
+                              to="#"
                               className="btn-main"
                               onClick={() => setIsFollowing(!isFollowing)}
                             >
                               Unfollow
-                            </a>
+                            </Link>
                           ) : (
-                            <a
-                              href="#"
+                            <Link
+                              to="#"
                               className="btn-main"
                               onClick={() => setIsFollowing(!isFollowing)}
                             >
                               Follow
-                            </a>
+                            </Link>
                           )}
                         </>
                       ) : (
@@ -132,8 +133,6 @@ const Author = () => {
           </div>
         </section>
       </div>
-
-      <a href="#" id="back-to-top"></a>
     </div>
   );
 };
