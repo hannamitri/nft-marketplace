@@ -7,16 +7,19 @@ const topSellers = require("./data/topSellers.json");
 const itemDetails = require("./data/itemDetails.json");
 
 exports.authors = functions.https.onRequest((data, context) => {
+  context.set("Access-Control-Allow-Origin", "*");
   const authorId = data.query.author;
   const author = authors.find((item) => +item.authorId === +authorId);
   context.send(author);
 });
 
 exports.newItems = functions.https.onRequest((_, context) => {
+  context.set("Access-Control-Allow-Origin", "*");
   context.send(newItems);
 });
 
 exports.explore = functions.https.onRequest((data, context) => {
+  context.set("Access-Control-Allow-Origin", "*");
   const filterOption = data.query.filter;
   if (filterOption) {
     if (filterOption === "price_high_to_low") {
@@ -35,14 +38,17 @@ exports.explore = functions.https.onRequest((data, context) => {
 });
 
 exports.hotCollections = functions.https.onRequest((_, context) => {
+  context.set("Access-Control-Allow-Origin", "*");
   context.send(hotCollections);
 });
 
 exports.topSellers = functions.https.onRequest((_, context) => {
+  context.set("Access-Control-Allow-Origin", "*");
   context.send(topSellers);
 });
 
 exports.itemDetails = functions.https.onRequest((data, context) => {
+  context.set("Access-Control-Allow-Origin", "*");
   const nftId = data.query.nftId;
   const nftItem = itemDetails.find((item) => +item.nftId === +nftId);
   context.send(nftItem);

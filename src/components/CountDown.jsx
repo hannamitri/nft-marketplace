@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
 const CountDown = ({ timeInHours }) => {
-  const timeFromNow = Date.parse(new Date()) + timeInHours * 60 * 60 * 1000;
-  const deadline = new Date(timeFromNow);
   const [timeRemaining, setTimeRemaining] = useState(0);
   const [timeText, setTimeText] = useState("");
+  const timeFromNow = Date.parse(new Date()) + timeInHours * 60 * 60 * 1000;
+  const deadline = new Date(timeFromNow);
 
   function calculateTime() {
     setTimeRemaining(Date.parse(deadline) - Date.parse(new Date()));
