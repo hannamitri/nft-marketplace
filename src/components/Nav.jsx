@@ -75,16 +75,6 @@ const Nav = () => {
             Explore
           </Link>
         </li>
-        <li className="dropdown__list">
-          <Link to="/author" onClick={() => closeNav()}>
-            Author
-          </Link>
-        </li>
-        <li className="dropdown__list">
-          <Link to="/item-details" onClick={() => closeNav()}>
-            Item Details
-          </Link>
-        </li>
         <li className="close__button">
           <button onClick={() => closeNav()}>
             <FaTimes />
