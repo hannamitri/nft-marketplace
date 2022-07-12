@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../images/background/Ultraverse.png";
+import Logo from "../images/Ultraverse.png";
 
 const Footer = () => {
   return (

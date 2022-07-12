@@ -1,6 +1,6 @@
 import React from "react";
-import NFT from "../../images/misc/nft.png";
-import backgroundImage from "../../images/background/bg-shape-1.jpg";
+import NFT from "../../images/nft.png";
+import backgroundImage from "../../images/bg-shape-1.jpg";
 import { Link } from "react-router-dom";
 
 const Landing = () => {
@@ -9,7 +9,7 @@ const Landing = () => {
       id="section-hero"
       aria-label="section"
       className="no-top no-bottom vh-100"
-      data-bgimage="url(images/background/bg-shape-1.jpg) bottom"
+      data-bgimage="url(images/bg-shape-1.jpg) bottom"
       style={{ background: `url(${backgroundImage}) bottom / cover` }}
     >
       <div className="v-center">

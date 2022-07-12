@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import SubHeader from "../images/background/subheader.jpg";
+import SubHeader from "../images/subheader.jpg";
 import ExploreItems from "../components/explore/ExploreItems";
 import WOW from "wowjs";
 

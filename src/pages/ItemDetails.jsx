@@ -1,14 +1,12 @@
 import React, { useEffect, useState } from "react";
-import EthImage from "../images/misc/ethereum.svg";
-import Author10 from "../images/author/author-10.jpg";
+import EthImage from "../images/ethereum.svg";
 import WOW from "wowjs";
 import { Link, useParams } from "react-router-dom";
-import axios from "axios";
 import Skeleton from "../components/UI/Skeleton";
+import axios from "axios";
 
 const ItemDetails = () => {
   const [nftItem, setNftItem] = useState("");
-
   const id = useParams().id;
 
   const getNftItem = async () => {
@@ -86,13 +84,19 @@ const ItemDetails = () => {
                         <h6>Creator</h6>
                         <div className="item_author">
                           <div className="author_list_pp">
-                            <Link to="/author">
-                              <img className="lazy" src={Author10} alt="" />
+                            <Link to={`/author/${nftItem.creatorId}`}>
+                              <img
+                                className="lazy"
+                                src={nftItem.creatorImage}
+                                alt=""
+                              />
                               <i className="fa fa-check"></i>
                             </Link>
                           </div>
                           <div className="author_list_info">
-                            <Link to="/author">Stacy Long</Link>
+                            <Link to={`/author/${nftItem.creatorId}`}>
+                              {nftItem.creatorName}
+                            </Link>
                           </div>
                         </div>
                       </div>

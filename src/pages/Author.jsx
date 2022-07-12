@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import AuthorBanner from "../images/author_single/author_banner.jpg";
+import AuthorBanner from "../images/author_banner.jpg";
 import AuthorItems from "../components/author/AuthorItems";
 import WOW from "wowjs";
 import axios from "axios";
@@ -38,7 +38,7 @@ const Author = () => {
           id="profile_banner"
           aria-label="section"
           className="text-light"
-          data-bgimage="url(images/author_single/author_banner.jpg) top"
+          data-bgimage="url(images/author_banner.jpg) top"
           style={{ background: `url(${AuthorBanner}) top` }}
         ></section>
 

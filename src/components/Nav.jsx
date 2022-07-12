@@ -1,6 +1,5 @@
 import React from "react";
-// import Logo from "../images/logo.png";
-import Logo from "../images/background/Ultraverse.png";
+import Logo from "../images/Ultraverse.png";
 import { Link } from "react-router-dom";
 import { FaTimes } from "react-icons/fa";
 
@@ -49,16 +48,11 @@ const Nav = () => {
                       Explore<span></span>
                     </Link>
                   </li>
-                  {/* <li className="menu-item-has-children has-child">
-                    <Link to="/author">
-                      Author<span></span>
+                  <li>
+                    <Link to="#" className="btn-main connect-wallet">
+                      Connect wallet
                     </Link>
                   </li>
-                  <li className="menu-item-has-children has-child">
-                    <Link to="/item-details">
-                      Item Details<span></span>
-                    </Link>
-                  </li> */}
                 </ul>
 
                 <div className="menu_side_area">

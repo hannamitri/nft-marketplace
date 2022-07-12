@@ -19,10 +19,10 @@
 
 /* ================================================== */
 
-@import url("../fonts/font-awesome/css/font-awesome.css");
-@import url("../fonts/elegant_font/HTML_CSS/style.css");
-@import url("../fonts/et-line-font/style.css");
-@import url("../fonts/icofont/icofont.min.css");
+@import url("../css/fonts/font-awesome/css/font-awesome.css");
+@import url("../css/fonts/elegant_font/HTML_CSS/style.css");
+@import url("../css/fonts/et-line-font/style.css");
+@import url("../css/fonts/icofont/icofont.min.css");
 
 * {
   --body-font: "DM Sans", Helvetica, Arial, sans-serif;
@@ -2346,11 +2346,6 @@ input[type="checkbox"] {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
-  /* background: url('../images/ui/arrow-down-form.png') no-repeat 98% 60%; */
-}
-
-.form-underline select:focus {
-  /* background: url('../images/ui/arrow-down-form-hover.png') no-repeat 98% 60%; */
 }
 
 .form-underline input[type="text"],
@@ -10258,10 +10253,6 @@ i.bg-color-secondary {
   z-index: 100;
 }
 
-.dark-scheme .de-modal .btn-close {
-  background: url(../images/ui/btn-close-light.png) center no-repeat;
-}
-
 .de-modal b {
   color: #0d0c22;
 }
@@ -16048,7 +16039,6 @@ img {
   header.header-mobile #mainmenu > li > span {
     width: 36px;
     height: 36px;
-    background: url(../images/ui/arrow-down.png) center no-repeat;
     position: absolute;
     right: 0;
     margin-top: 10px;
@@ -16056,31 +16046,14 @@ img {
     cursor: poInter;
   }
 
-  .dark-scheme header.header-mobile #mainmenu > li > span {
-    background: url(../images/ui/arrow-down-light.png) center no-repeat;
-  }
-
-  header.header-mobile #mainmenu li span.active {
-    background: url(../images/ui/arrow-up.png) center no-repeat;
-  }
-
-  .dark-scheme header.header-mobile #mainmenu li span.active {
-    background: url(../images/ui/arrow-up-light.png) center no-repeat;
-  }
-
   header.header-mobile #mainmenu li > ul > li > span {
     width: 36px;
     height: 36px;
-    background: url(../images/ui/arrow-down.png) center no-repeat;
     position: absolute;
     right: 0;
     margin-top: -45px;
     z-index: 1000;
     cursor: poInter;
-  }
-
-  header.header-mobile #mainmenu > li > ul > li > span.active {
-    background: url(../images/ui/arrow-up.png) center no-repeat;
   }
 
   header.header-mobile #mainmenu li ul li a {
@@ -16097,16 +16070,6 @@ img {
 
   header.header-mobile .h-phone {
     color: #202020;
-  }
-
-  header.header-light.header-mobile #mainmenu > li > span,
-  header.header-light.header-mobile #mainmenu li > ul > li > span {
-    background: url(../images/ui/arrow-down.png) center no-repeat;
-  }
-
-  header.header-light.header-mobile #mainmenu > li > span.active,
-  header.header-light.header-mobile #mainmenu li > ul > li > span.active {
-    background: url(../images/ui/arrow-up.png) center no-repeat;
   }
 
   #mainmenu li ul.mega {
@@ -16764,4 +16727,9 @@ img {
   width: 100%;
   max-width: 200px;
   margin-bottom: 24px;
+}
+
+.connect-wallet {
+  margin-left: 18px;
+  color: white !important;
 }
