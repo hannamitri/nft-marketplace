@@ -1,29 +1,42 @@
 import React, { useState } from "react";
 
-const CountDown = ({ timeInHours }) => {
-  const [timeRemaining, setTimeRemaining] = useState(0);
+const CountDown = ({ expiryDate }) => {
   const [timeText, setTimeText] = useState("");
-  const timeFromNow = Date.parse(new Date()) + timeInHours * 60 * 60 * 1000;
-  const deadline = new Date(timeFromNow);
+  const [intervalId, setIntervalId] = useState();
+
+  React.useEffect(() => {
+    calculateTime();
+
+    const intervalId = setInterval(() => {
+      calculateTime();
+    }, 1000);
+
+    setIntervalId(intervalId);
+
+    return () => {
+      clearInterval(intervalId);
+    }
+  }, []);
 
   function calculateTime() {
-    setTimeRemaining(Date.parse(deadline) - Date.parse(new Date()));
-    var seconds = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
-    var hours = Math.floor(
-      (timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-    );
-    var minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+    const millisLeft = expiryDate - Date.now();
 
-    setTimeText(`${hours}h ${minutes}m ${seconds}s`);
-
-    if (timeRemaining < 0) {
-      clearInterval(x);
+    if (millisLeft < 0) {
+      clearInterval(intervalId);
       setTimeText("EXPIRED");
+      return;
     }
-  }
 
-  var x = setInterval(calculateTime, 1000 / 60);
+    const secondsLeft = millisLeft / 1000;
+    const minutesLeft = secondsLeft / 60;
+    const hoursLeft = minutesLeft / 60;
+
+    setTimeText(
+      `${Math.floor(hoursLeft)}h ${Math.floor(minutesLeft % 60)}m ${Math.floor(
+        secondsLeft % 60
+      )}s`
+    );
+  }
 
   return <div className="de_countdown">{timeText}</div>;
 };

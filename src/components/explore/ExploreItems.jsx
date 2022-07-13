@@ -13,7 +13,6 @@ const ExploreItems = () => {
     const response = await axios.get(
       `https://us-central1-nft-cloud-functions.cloudfunctions.net/explore`
     );
-
     setExploreItems(response.data);
   };
 
@@ -61,8 +60,8 @@ const ExploreItems = () => {
                   <i className="fa fa-check"></i>
                 </Link>
               </div>
-              {item.countdownInHours && (
-                <CountDown timeInHours={item.countdownInHours} />
+              {item.expiryDate && (
+                <CountDown expiryDate={item.expiryDate} />
               )}
 
               <div className="nft__item_wrap">
