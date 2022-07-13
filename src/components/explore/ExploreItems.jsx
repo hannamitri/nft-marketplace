@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import Skeleton from "../UI/Skeleton";
-import NftItem from "../UI/NftItem";
 import CountDown from "../CountDown";
 
 const ExploreItems = () => {
@@ -60,37 +59,16 @@ const ExploreItems = () => {
                   <i className="fa fa-check"></i>
                 </Link>
               </div>
-              {item.expiryDate && (
-                <CountDown expiryDate={item.expiryDate} />
-              )}
+              {item.expiryDate && <CountDown expiryDate={item.expiryDate} />}
 
               <div className="nft__item_wrap">
-                <div className="nft__item_extra">
-                  <div className="nft__item_buttons">
-                    <button>Buy Now</button>
-                    <div className="nft__item_share">
-                      <h4>Share</h4>
-                      <a
-                        href="https://www.facebook.com/sharer/sharer.php?u=https://gigaland.io"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="fa fa-facebook fa-lg"></i>
-                      </a>
-                      <a
-                        href="https://twitter.com/intent/tweet?url=https://gigaland.io"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="fa fa-twitter fa-lg"></i>
-                      </a>
-                      <a href="mailto:?subject=I wanted you to see this site&amp;body=Check out this site https://gigaland.io">
-                        <i className="fa fa-envelope fa-lg"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <NftItem image={item.nftImage} id={item.nftId} />
+                <Link to={`/item-details/${item.nftId}`}>
+                  <img
+                    src={item.nftImage}
+                    className="lazy nft__item_preview"
+                    alt=""
+                  />
+                </Link>
               </div>
               <div className="nft__item_info">
                 <Link to={`/item-details/${item.nftId}`}>

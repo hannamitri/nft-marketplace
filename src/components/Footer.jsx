@@ -12,22 +12,34 @@ const Footer = () => {
               <h5>Marketplace</h5>
               <ul>
                 <li>
-                  <Link to="#">All NFTs</Link>
+                  <Link to="#" className="no-cursor">
+                    All NFTs
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Art</Link>
+                  <Link to="#" className="no-cursor">
+                    Art
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Music</Link>
+                  <Link to="#" className="no-cursor">
+                    Music
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Domain Names</Link>
+                  <Link to="#" className="no-cursor">
+                    Domain Names
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Virtual World</Link>
+                  <Link to="#" className="no-cursor">
+                    Virtual World
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Collectibles</Link>
+                  <Link to="#" className="no-cursor">
+                    Collectibles
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -37,22 +49,34 @@ const Footer = () => {
               <h5>Resources</h5>
               <ul>
                 <li>
-                  <Link to="#">Help Center</Link>
+                  <Link to="#" className="no-cursor">
+                    Help Center
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Partners</Link>
+                  <Link to="#" className="no-cursor">
+                    Partners
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Suggestions</Link>
+                  <Link to="#" className="no-cursor">
+                    Suggestions
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Discord</Link>
+                  <Link to="#" className="no-cursor">
+                    Discord
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Docs</Link>
+                  <Link to="#" className="no-cursor">
+                    Docs
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Newsletter</Link>
+                  <Link to="#" className="no-cursor">
+                    Newsletter
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -62,22 +86,34 @@ const Footer = () => {
               <h5>Community</h5>
               <ul>
                 <li>
-                  <Link to="#">Community</Link>
+                  <Link to="#" className="no-cursor">
+                    Community
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Documentation</Link>
+                  <Link to="#" className="no-cursor">
+                    Documentation
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Brand Assets</Link>
+                  <Link to="#" className="no-cursor">
+                    Brand Assets
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Blog</Link>
+                  <Link to="#" className="no-cursor">
+                    Blog
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Forum</Link>
+                  <Link to="#" className="no-cursor">
+                    Forum
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Mailing List</Link>
+                  <Link to="#" className="no-cursor">
+                    Mailing List
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -103,7 +139,7 @@ const Footer = () => {
                     placeholder="enter your email"
                     type="text"
                   />
-                  <Link to="#" id="btn-subscribe">
+                  <Link to="#" className="no-cursor" id="btn-subscribe">
                     <i className="arrow_right bg-color-secondary"></i>
                   </Link>
                   <div className="clearfix"></div>

@@ -32,31 +32,6 @@ const AuthorItems = ({ authorData }) => {
                       </Link>
                     </div>
                     <div className="nft__item_wrap">
-                      <div className="nft__item_extra">
-                        <div className="nft__item_buttons">
-                          <button>Buy Now</button>
-                          <div className="nft__item_share">
-                            <h4>Share</h4>
-                            <a
-                              href="https://www.facebook.com/sharer/sharer.php?u=https://gigaland.io"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <i className="fa fa-facebook fa-lg"></i>
-                            </a>
-                            <a
-                              href="https://twitter.com/intent/tweet?url=https://gigaland.io"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <i className="fa fa-twitter fa-lg"></i>
-                            </a>
-                            <a href="#">
-                              <i className="fa fa-envelope fa-lg"></i>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
                       <Link to={`/item-details/${item.nftId}`}>
                         <img
                           src={item.nftImage}

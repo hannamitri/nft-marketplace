@@ -63,7 +63,7 @@ const Author = () => {
                       <div className="profile_name">
                         {authorData ? (
                           <h4>
-                            {authorData.name}
+                            {authorData.authorName}
                             <span className="profile_username">
                               @{authorData.tag}
                             </span>

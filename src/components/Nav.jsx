@@ -49,7 +49,13 @@ const Nav = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="#" className="btn-main connect-wallet">
+                    <Link
+                      to="#"
+                      className="btn-main connect-wallet"
+                      onClick={() =>
+                        alert("This feature has not been implemented yet")
+                      }
+                    >
                       Connect wallet
                     </Link>
                   </li>

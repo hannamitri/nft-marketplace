@@ -16733,3 +16733,7 @@ img {
   margin-left: 18px;
   color: white !important;
 }
+
+.no-cursor  {
+  cursor: not-allowed;
+}
