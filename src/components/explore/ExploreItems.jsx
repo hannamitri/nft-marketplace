@@ -7,6 +7,7 @@ import CountDown from "../CountDown";
 const ExploreItems = () => {
   const [itemCount, setItemCount] = useState(8);
   const [exploreItems, setExploreItems] = useState([]);
+  const [skeletonLoading, setSkeletonLoading] = useState(true);
 
   const getExploreData = async () => {
     const response = await axios.get(
@@ -16,11 +17,13 @@ const ExploreItems = () => {
   };
 
   async function filterItems(filter) {
+    setSkeletonLoading(false);
     const response = await axios.get(
       `https://us-central1-nft-cloud-functions.cloudfunctions.net/explore?filter=${filter}`
     );
 
     setExploreItems(response.data);
+    setSkeletonLoading(true);
   }
 
   useEffect(() => {
@@ -41,7 +44,7 @@ const ExploreItems = () => {
           <option value="likes_high_to_low">Most liked</option>
         </select>
       </div>
-      {exploreItems.length ? (
+      {exploreItems.length && skeletonLoading ? (
         exploreItems.slice(0, itemCount).map((item, index) => (
           <div
             key={index}
